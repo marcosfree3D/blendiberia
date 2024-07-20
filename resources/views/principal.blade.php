@@ -32,6 +32,6 @@
         <p class="textolegal"> Politica de cookies </p>
     </div>
 </footer>
-<script src="/javascript/blendiberia.js"></script>
-<script src="/javascript/dark.js"></script>
+<script src={{ asset('/js/blendiberia.js') }}></script>
+<script src={{ asset('/js/dark.js')}}></script>
 
