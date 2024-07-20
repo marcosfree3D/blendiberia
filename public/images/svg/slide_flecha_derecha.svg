@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <path id="Icon_material-play-circle-filled" d="M15,0C6.72,0 0,6.72 0,15C0,23.28 6.72,30 15,30C23.28,30 30,23.28 30,15C30,6.72 23.28,0 15,0ZM12,21.75L12,8.25L21,15L12,21.75Z" style="fill:rgb(255,120,0);fill-rule:nonzero;"/>
+</svg>

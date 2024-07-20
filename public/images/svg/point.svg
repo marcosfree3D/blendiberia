@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 71.35 86.1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin">
+      <path id="Trazado_2720" data-name="Trazado 2720" class="cls-1" d="M68.85,35.68c0,25.8-33.18,47.92-33.18,47.92,0,0-33.18-22.12-33.18-47.92C2.5,17.35,17.35,2.5,35.68,2.5s33.18,14.85,33.18,33.18Z"/>
+      <path id="Trazado_2721" data-name="Trazado 2721" class="cls-1" d="M46.73,35.68c0,6.11-4.95,11.06-11.06,11.06s-11.06-4.95-11.06-11.06,4.95-11.06,11.06-11.06h0c6.11,0,11.06,4.95,11.06,11.06Z"/>
+    </g>
+  </g>
+</svg>

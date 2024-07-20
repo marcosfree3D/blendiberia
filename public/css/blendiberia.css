@@ -1,0 +1,634 @@
+:root {
+    --azul_claro: #373AF7;
+    --azul_oscuro: #011C63;
+    --marron_oscuro: #383431;
+    --blanco: #ffffff;
+    --naranja: #ff7800;
+    --gris_claro: #777777;
+    --gris_oscuro: #333;
+}
+
+
+body {
+    font-family: "roboto-light", sans-serif;
+    font-size: 10px;
+    background: linear-gradient(var(--azul_claro), var(--azul_oscuro));
+    padding-bottom: 6rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    color: var(--blanco);
+    margin:0 auto; 
+    max-width: 1440px;
+
+}
+/*-------------------------
+TIPOS Y POSICIONES DE TEXTO
+-------------------------*/
+.textocursiva{
+    font-family: 'Roboto-LightItalic', sans-serif;
+}
+
+.alinearderecha{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+/*BARRA DE MENUS*/
+.hamburger{
+    display: none;
+}
+.close{
+    display: none;
+}
+
+
+.barramenu{
+    background-color: var(--azul_oscuro);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-start;
+}
+.barramenu a {
+    float: left;
+    font-family: "roboto-light", sans-serif;
+    color: var(--blanco);
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 15px;
+}
+.barramenu a.active {
+  background-color: var(--naranja);
+  color: white;
+}
+
+.barramenu a:hover {
+  background-color: var(--azul_claro);
+  color: var(--blanco);
+}
+
+.barramenu .links{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+.barramenu .links-login{
+    display: flex;
+    align-items: flex-end;
+    align-self: center;
+}
+.barramenu .social{
+    display: flex;
+    flex-direction: row;
+}
+.social_svg{
+    width: 25px;
+    height: 25px;
+}
+.dark{
+    padding-left: 2rem;
+    width: auto;
+   
+}
+
+.shopping{
+    padding-left: 1rem;
+    width: auto;
+}
+.textobarra{
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hamburger{
+        display: none;
+        position: fixed;
+        right: 15px;
+        top: 5px;
+        width: 35px;
+        height: 35px;
+        z-index: 9999;
+    }
+    .cerrar{
+        display: none;
+        position: fixed;
+        right: 15px;
+        top: 5px;
+        width: 35px;
+        height: 35px;
+        z-index: 9999;
+    }
+
+
+/* CLASES GENERALES PAGINA */
+
+
+.botoncabecera{
+    border-radius: 3.2rem;
+    cursor: pointer;
+    border: 1px solid var(--blanco);
+    background-color: transparent;
+    width: min(15vw, 20rem);
+    height: 4rem;
+    color: var(--blanco);
+    font-family: "Roboto-Regular";
+    font-size: min(1.8vw, 3rem);
+    margin-top: 4rem;
+}
+.calendario-svg{
+    margin: 3px;
+    margin-right: 17px;
+}
+.conferencia,
+.taller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px var(--blanco) solid;
+    width: 30%;
+}
+.conferencia:hover,
+.taller:hover{
+    cursor: pointer;
+    border: 3px var(--blanco) solid;
+}
+.contenedor{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.calendario-blanco{
+    width: 100%;
+}
+.direccion-sala{
+    font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+   ;
+}
+.direccion-postal{
+    font-size: 1.5rem;
+    font-family: "Roboto-Regular";
+    margin-top: -10px;
+    margin-left: 17px;
+
+}
+.nombre-hotel{
+    font-size: 2rem;
+    font-family: "Roboto-Regular";
+    margin-top: 12px;
+    margin-left: 17px;
+
+}
+/* PONENTES - PONENCIAS - TALLERES */
+.cuerpo__programa-tus-dias{
+    font-size: 1.5rem;
+}
+.titulo-texto{
+    padding-top: 2rem;
+    font-size: 3rem;
+    top:0;
+}
+
+.header2__fecha {
+    font-family: "Roboto-Regular";
+    font-weight: 500;
+    text-align: center;
+    /*font-size: 1.45vw; */
+    font-size: min(max(1rem, 1.45vw), 3rem);
+    max-width: fit-content;
+    word-break:break-all;
+    container-name: sidebar
+  }s
+  .nombre-hotel{
+    margin-top: 26px;
+    margin-left: 17px;
+    margin-bottom: 0px;
+    font-size: 1.5rem;;
+  }
+  
+  @container sidebar (min-width: 300px) {
+    .fechalogo {
+      font-size: 2em;
+    }
+  }
+
+
+.imagen_conferencia{
+    width: 100%;
+
+}
+.imagenlogopie{
+    width: 50%;
+}
+
+.logobarra{
+    position: fixed;
+    max-width: 35px;
+    top: 8px;
+    left: 65px;
+    z-index: 1003;
+
+}
+.logo-blendiberia-top{
+    width: 90%;
+    max-width: 504px;
+    margin-left: 22%;
+}
+.logodark{
+    padding-top: 5px;
+}
+.linea_naranja{
+    color:var(--naranja);
+    background-color: var(--naranja);
+    border-radius: 3px;
+    
+    width: 97%;
+    height: 5px;
+    margin-top: 22px;
+    margin-left: 0px;
+    border: 0;
+
+}
+.linea_slide{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+.conferencia__descripcion,
+.taller__descripcion,
+.video__descripcion {
+    font-family: "Roboto-Light";
+    font-size: 1.5rem;
+    color: var(--blanco);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.boton_slide{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transition: all 300ms ease-in-out;
+}
+.boton_slide:first-of-type{
+    margin-left: 30px;
+}
+
+.boton_slide:hover{
+    width: 40px;
+    height: 40px;
+}
+
+.textologopie{
+    padding-top: 2%;
+    float: left;
+    margin-left: -5%;
+    width: 100%;
+}
+
+.textolegal{
+    margin: 0;
+    text-align: right;
+    padding-right: 50px;
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 12px;
+}
+.textolegal a:link{
+    /* unvisited link */
+    text-decoration: none;
+    color: var(--blanco)
+}
+  /* visited link */
+.textolegal a:visited {
+    color: var(--blanco);
+}
+  
+  /* mouse over link */
+.textolegal a:hover {
+    color:var(--naranja);
+ }
+ .pol-pri{
+    display: flex;
+    flex-direction: column;
+    color: var(--blanco);
+ }
+ .pol-pri a:link{
+    /* unvisited link */
+    text-decoration: none;
+    color: var(--blanco)
+}
+  /* visited link */
+.pol-pri a:visited {
+    color: var(--blanco);
+}
+  
+  /* mouse over link */
+.pol-pri a:hover {
+    color:var(--naranja);
+ }
+
+.textologo{
+    padding-top: 60px;
+}
+.textologopie{
+    text-align: center;
+}
+.textomenu{
+    margin-top: 3px;
+}
+
+.ficha_ponente:hover{
+    transition: all 300ms ease-in-out;
+    transform: translateY(-.5rem);
+}
+
+.ponentes__nombre{
+    font-size: 2rem;
+    font-family: "Roboto-Regular";
+    color: var(--blanco);
+}
+.ponentes__cargo{
+    font-size: 1.5rem;
+    font-family: "Roboto-LightItalic";
+    color: var(--blanco);
+}
+@media (max-width: 1324px){
+    .ponentes__nombre{
+        font-size: 1.5rem;
+    }
+    .ponentes__cargo{
+        font-size: 1rem;
+    }
+    
+}
+@media (max-width: 1062px){
+    .ponentes__nombre{
+        font-size: 1rem;
+    }
+    .ponentes__cargo{
+        font-size: 0.7rem;
+    }
+    
+}
+@media (max-width: 802px){
+    .ponentes__nombre{
+        font-size: 0.7rem;
+    }
+    .ponentes__cargo{
+        font-size: 0.5rem;
+    }
+    
+}
+
+
+.texto-naranja{
+    color: var(--naranja);
+    font-size: 1.5rem;
+    font-family: "Roboto-Regular", sans-serif;
+}
+.titulo-conferencia,
+.titulo-taller,
+.titulo_video{
+    color: var(--blanco);
+    font-family: "Roboto-Regular";
+    font-size: 2rem;
+    border-bottom: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*---------------------
+POLITICA DE PUBLICIDAD
+----------------------*/
+.cuerpo__politica{
+    font-size: 1.5rem;
+}
+
+/*----------------------
+   CONTENEDORES GRID
+ ----------------------*/
+
+.b-header{
+    display: flex;
+    width: 100%;
+    /*border: 1px solid black; */
+}
+.b-header2{
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    text-align: center;
+    width: 100%;
+    max-width: 495px;
+    margin-top: 2rem;
+    /*border: 1px solid black;*/
+}
+.b-entradas{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    justify-content: end;
+    /*border: 1px solid black;*/
+}
+
+
+.b-talento{
+    display: grid;
+    font-size: min(max(2rem, 5vw), 50px);
+    font-family: 'Roboto-LightItalic', sans-serif;
+    grid-template-columns: auto;
+    width: 100%;
+    margin: 1rem 0;
+    text-align: center;
+}
+.b-calendario{
+    display: grid;
+    grid-template-columns: 30% auto 40%;
+    width: 100%;
+    /*border: 1px solid black; */
+}
+
+.b-calendario-fechas{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.b-calendario-fechas-programa{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    /*border: 1px solid black;*/
+}
+.b-calendario-fechas-talleres{
+    display: grid;
+    margin-top: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.b-calendario-localizacion{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+.b-calendario-localizacion-fechas{
+    display: grid;
+    grid-template-columns: 20% auto;
+    width: 100%;
+    
+    /*border: 1px solid black;*/
+}
+.b-calendario-localizacion_fechas__texto{
+    position: relative;
+    top: -10px;
+  
+    font-size: 2rem;
+    font-family: "Roboto-Regular";
+    align-content: center;
+    margin-left: 15px;
+}
+.b-calendario-localizacion-sitio{
+    display: grid;
+    grid-template-columns: 20% auto;
+    width: 100%;
+    /*border: 1px solid black; */
+}
+.b-calendario-localizacion-mapa{
+    display: grid;
+    grid-template-columns: 20% 20% auto;
+    gap: 1rem;
+    width: 100%;
+    /*border: 1px solid black;*/
+}
+
+.b-programa-dias{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    text-align: left;
+    /*border: 1px solid black; */
+}
+.b-titulos{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    text-align: left;
+    font-family: 'roboto-regular', sans-serif;
+    color: var(--naranja);
+    
+}
+.b-ponentes{
+    display: flex;
+    gap: 1.5rem;
+    width: 100%;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: "Roboto-Regular";
+    color: var(--naranja);
+    font-size: 1.2rem;
+}
+.b-conferencias, 
+.b-talleres,
+.b-videos {
+    display: flex;
+    width: 100%;
+    gap: 1em;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+    align-content: space-between;
+
+}
+
+
+.b-entradas{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    text-align: left;
+    /*border: 1px solid black; */
+}
+
+.b-pie-pagina{
+    display: grid;
+    grid-template-columns:40% 20% 40%;
+    width: 100%;
+    text-align: left;
+    position: fixed;
+    height: 50px;
+    bottom: 0;
+    left:0;
+    background-color: var(--azul_oscuro);
+}
+.b-imagenlogopie{
+    display: flex;
+    justify-content: center;
+}
+
+.boton_registro_naranja{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.boton_registro{
+    display:flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: "Roboto-Regular";
+    font-size: 2rem;
+    margin: 0 auto;
+    background-color:  var(--naranja);
+    border-radius: 2rem;
+    min-width: 25rem;
+    height: 3rem;
+    
+}
+
+
+/*--------------------------------
+CLASES INTERNAS CONTENEDORES GRID
+------------------------------- */
+.b-calendario-localizacion-fechas-texto{
+    margin-left: 1rem;
+}
+
+@font-face {
+font-family: 'Roboto-Light';
+src:local('Roboto-Light'),
+    url('../fonts/Roboto-Light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src:local('Roboto-LightItalic'),
+        url('../fonts/Roboto-LightItalic.ttf') format('truetype');
+    }
+@font-face {
+    font-family: 'Roboto-Regular';
+    src:local('Roboto-Regular'),
+        url('../fonts/Roboto-Regular.ttf') format('truetype');
+    }

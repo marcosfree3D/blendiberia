@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192.487" height="220.5" viewBox="0 0 192.487 220.5">
+  <g id="Grupo_552" data-name="Grupo 552" transform="translate(2.5 2.5)">
+    <g id="Grupo_551" data-name="Grupo 551" transform="translate(25 61)">
+      <text id="_16" data-name="16" transform="translate(68 125)" fill="#ff7800" font-size="119" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-68.274" y="0">16</tspan></text>
+    </g>
+    <g id="Icon_feather-calendar" data-name="Icon feather-calendar">
+      <path id="Trazado_2716" data-name="Trazado 2716" d="M25.332,6H171.155a20.832,20.832,0,0,1,20.832,20.832V172.655a20.832,20.832,0,0,1-20.832,20.832H25.332A20.832,20.832,0,0,1,4.5,172.655V26.832A20.832,20.832,0,0,1,25.332,6Z" transform="translate(-4.5 14.832)" fill="none" stroke="#ff7800" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Trazado_2717" data-name="Trazado 2717" d="M24,3V44.664" transform="translate(111.407 -3)" fill="none" stroke="#ff7800" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Trazado_2718" data-name="Trazado 2718" d="M12,3V44.664" transform="translate(40.08 -3)" fill="none" stroke="#ff7800" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <path id="Trazado_2719" data-name="Trazado 2719" d="M4.5,15H191.987" transform="translate(-4.5 68.328)" fill="none" stroke="#ff7800" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+  </g>
+</svg>

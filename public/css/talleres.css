@@ -1,0 +1,117 @@
+.b-contenedor-eventos{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    /*border: 2px dotted var(--blanco); */
+}
+.b-contenedor-eventos__calendarios{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    width: 100%;
+    /*border: 2px dotted var(--blanco);*/
+}
+.b-programa-lista {
+    display: grid;
+    grid-template-columns: 1fr 82%;
+    
+    width: 95%;
+    /*border: 3px dotted greenyellow*/;
+    
+}
+.b-programa-lista__contenedor__detalle {
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    color: var(--blanco);
+    width: 100%;
+    /*border: 3px dashed blueviolet;*/
+}
+.b-programa-lista__contenedor__detalle__imgtxt{
+    display: flex;
+    flex-direction: row;
+}
+.b-programa-lista__contenedor__titulo{
+    text-align: left;
+    color: var(--blanco);
+    font-family: "Roboto-Regular";
+    padding: 5px 0px;
+}
+.b-programa-lista__contenedor_eventos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*border: 3px dashed wheat; */
+}
+.b-programa-lista__contenedor_eventos_horarios{
+    display: flex;
+    flex-direction: column;
+    /*border: 3px dashed blueviolet;*/
+}
+
+.b-programa-lista__contenedor_eventos_horarios_row{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr 1fr;
+    justify-content: start;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: "roboto-Regular", sans-serif;
+    color: var(--naranja);
+    font-size: 15px;
+    height: 25px;
+    margin-top: 5px;
+    /*border: 2px dotted white;*/
+}
+.b-programa-lista__contenedor_eventos_horarios p{
+    margin-top: 10px;
+    border-color: var(--naranja);
+    border-bottom: 1px solid var(--naranja);
+   
+}
+.b-programa-lista__detalle__cuerpo{
+    font-family: "Roboto-Light";
+    font-size: 1.2em;
+    color: var(--blanco);
+}
+.b-programa-lista-detalle__imagen{
+    margin-right: 20px;
+    width: 400px;
+}
+.b-programalista__evento__precio{
+    margin-left: 10px;
+    border: 1px solid var(--naranja);
+    border-radius: 25px;
+    cursor: pointer;
+    height: 22px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+.fecha-programa{
+    color: var(--naranja);
+    background-color:  var(--blanco);
+    font-family: 'Roboto-Regular';
+    font-size: 1.5em;
+    width: 100%;
+    padding-left: 1rem;
+    margin-left: 20px;
+}
+.ficha_ponente{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--blanco);
+}
+.imagen_ponente{
+    border-radius: 100%;
+    width: 185px;
+    height: 100%;
+
+}
+
+.texto-programa{
+    color: var(--naranja);
+    font-family: 'Roboto-Regular' ;
+    font-size: 3vw;
+}

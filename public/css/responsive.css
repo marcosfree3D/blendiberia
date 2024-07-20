@@ -1,0 +1,150 @@
+/*-----------------------------------
+            MEDIA QUERIES
+ ----------------------------------*/
+/* BARRA MENU MEDIA SIZES */
+
+@media (max-width: 950px){
+    .barramenu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background: rgba(0,0,0,.5);
+        width: 100%;
+        height: 100%;
+        margin-left: 10rem;
+        top:0;
+    
+        opacity: 1;
+        backdrop-filter: blur(35px);
+
+    }
+    .barramenu .links {
+        margin-top: 90px;
+        display: flex;
+        align-items: last baseline;
+        align-self: center;
+        flex-direction: column;
+
+    }.barramenu a{
+        font-family: "Roboto-Regular";
+        font-size: 2rem;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .hamburger{
+        display: inline-flex;
+        position: absolute;
+    }
+    .cerrar{
+        display: inline-flex;
+        position: absolute;
+    }
+    .conferencia,
+    .taller{
+    
+        width: 45%;
+    }  
+    
+    .alinearderecha{
+        position: absolute;
+        right: 14rem;
+        bottom: 1rem;
+    }
+    
+    
+}
+@media (max-width: 700px) {
+    body{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .b-calendario{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .b-calendario-localizacion-fechas{
+        margin-top: 1.5rem;
+
+    }
+    .b-calendario-localizacion-sitio{
+        margin-top: 1.5rem;
+    }
+    .b-calendario-localizacion-mapa{
+        margin-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .cuerpo__programa-tus-dias {
+        margin-bottom: 2rem;
+    }
+
+    .b-ponentes{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .ficha_ponente{
+        margin-right: 1.5rem;
+      
+        
+    }
+    
+    .ponentes__nombre{
+        font-size: 1rem;
+    }
+    .imagen_ponente{
+        height: auto !important;
+    }
+    .ponentes__cargo{
+        font-size: 0.8rem;
+    }
+    .b-conferencias{
+        flex-direction: column !important;
+    }
+    .boton_slide{
+        display: none;
+    }
+    .texto-naranja{
+        margin-top: 2rem;
+    }
+
+    .botoncabecera{
+        width: 90vw;
+        font-size: 1.5rem;
+    }
+
+    .imagenlogopie{
+        width: 70%;
+    }
+    .logobarra{
+        left:40px;
+    }
+     
+    .conferencia,
+    .taller{
+    
+        width: 100%;
+    }    
+}
+
+
+@media(max-width:450px){
+    .botoncabecera{
+        width: 85vw;
+        font-size: 1.5rem;
+    }
+    .imagenlogopie{
+        width: 100%
+    }
+    .logobarra{
+        left: 30px;
+    }
+    .b-ponentes{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .imagen_ponente{
+        width: 88px;
+        height: auto !important;
+    }
+}

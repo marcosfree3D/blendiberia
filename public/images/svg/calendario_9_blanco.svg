@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 193 214" version="1.1" xmlns="http://www.w3.org/2000/svg
+" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" 
+style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;">
+    <g id="Capa_1-2">
+        <g id="Grupo_552">
+            <g id="Icon_feather-calendar">
+                <path id="Trazado_2716" d="M23.33,23.33L169.15,23.33C180.66,23.33 189.98,32.66 189.98,44.16L189.98,189.98C189.98,201.49 180.65,210.81 169.15,210.81L23.33,210.81C11.82,210.81 2.5,201.48 2.5,189.98L2.5,44.16C2.5,32.65 11.83,23.33 23.33,23.33Z" style="fill:none;fill-rule:nonzero;stroke:rgba(170,170,170,0.379);stroke-width:5px;"/>
+                <path id="Trazado_2717" d="M137.91,2.5L137.91,44.16" style="fill:none;fill-rule:nonzero;stroke:rgba(170,170,170,0.379);
+                stroke-width:5px;"/>
+                <path id="Trazado_2718" d="M54.58,2.5L54.58,44.16" style="fill:none;fill-rule:nonzero;stroke:rgba(170,170,170,0.379);
+                stroke-width:5px;"/>
+                <path id="Trazado_2719" d="M2.5,85.83L189.99,85.83" style="fill:none;fill-rule:nonzero;stroke:rgba(170,170,170,0.379);
+                stroke-width:5px;"/>
+            </g>
+        </g>
+        <g transform="matrix(1,0,0,1,28.1804,-6.52324)">
+            <g transform="matrix(132,0,0,132,105.134,202.328)">
+            </g>
+            <text x="31.013px" y="202.328px" style="font-family:'Roboto-Regular', 'Roboto';font-size:132px;fill:rgba(170,170,170,0.379);">9</text>
+        </g>
+    </g>
+</svg>

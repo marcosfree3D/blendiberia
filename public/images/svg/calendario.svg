@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.49 213.31">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #ff7800;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 5px;
+      }
+    </style>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1-2">
+    <g id="Grupo_552" data-name="Grupo 552">
+      <g id="Icon_feather-calendar" data-name="Icon feather-calendar">
+        <path id="Trazado_2716" data-name="Trazado 2716" class="cls-1" d="M23.33,23.33h145.82c11.51,0,20.83,9.33,20.83,20.83v145.82c0,11.51-9.33,20.83-20.83,20.83H23.33c-11.51,0-20.83-9.33-20.83-20.83V44.16c0-11.51,9.33-20.83,20.83-20.83Z"/>
+        <path id="Trazado_2717" data-name="Trazado 2717" class="cls-1" d="M137.91,2.5v41.66"/>
+        <path id="Trazado_2718" data-name="Trazado 2718" class="cls-1" d="M54.58,2.5v41.66"/>
+        <path id="Trazado_2719" data-name="Trazado 2719" class="cls-1" d="M2.5,85.83h187.49"/>
+      </g>
+    </g>
+  </g>
+</svg>
