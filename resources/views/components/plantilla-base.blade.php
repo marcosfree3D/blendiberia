@@ -17,16 +17,6 @@
 
     <x-main-menu/>
     {{$slot}}
-    <!-- CUERPO -->
-    <x-cabecera-principal/>
-    <x-calendario-localizacion/>
-    <x-zona-ponentes/>
-    <x-zona-conferencias/>
-    <x-zona-talleres/>
-
-    <x-boton-reserva-naranja/>
-
-    <x-zona-videos/>
 
     <!-- PIE DE PAGINA -->
     <footer class="b-pie-pagina">

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\RegistroController;
 // Principal
 Route::get('/', [HomeController::class, 'index']);
 
@@ -17,9 +18,7 @@ Route::get('/talleres/{dia}', function($dia){
     return "esta pagina devuleve todos los talleres del día: {$dia}";
 });
 
-Route::get("/registro", function(){
-    return "esta pagina devuelve el formulario de registro a la Blendiberia";
-});
+Route::get("/registro", [RegistroController::class, 'index']);
 
 Route::get('politica-privacidad', function(){
     return "esta pagina muestra la politica de privacidad";

@@ -1,10 +1,4 @@
-<%- include('partials/head') %>
-
-
-<body>
-
-    <%- include('partials/barra_navegacion') -%>
-
+<x-plantilla-base>
     <h1>REGISTRO</h1>
     <p class="cuerpo__textos-formulario">Debido a que hace varios años que no se celebra la Blendiberia presencialmente, es muy difícil cuantificar la asistencia al evento, por lo que os pedimos por favor que rellenéis el formulario,
         el cual nos servirá para buscar auditorios con un aforo adecuado. </p>
@@ -45,7 +39,4 @@
     <div class="proteccion-datos">
 
     </div>
-    <%- include('partials/pie_pagina')-%>
-
-</body>
-</html>
+</x-plantilla-base>
