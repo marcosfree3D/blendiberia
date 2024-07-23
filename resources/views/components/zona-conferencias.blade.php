@@ -10,14 +10,15 @@
 
 <!--Zona conferencias - detalle conferencias-->
 <section class="b-conferencias">
-    <% conferencias.forEach(conferencia => { %>
-        <div class="conferencia">
-            <a href="/ponencia/<%= conferencia.id %>">
-                <img src="<%= conferencia.imagen %>" alt="imagen conferencia" class="imagen_conferencia">
-                <h3 class="titulo-conferencia"><%= conferencia.titulo %></h3>
-                <div class="conferencia__descripcion"><%= conferencia.descripcion_reducida %></div>
-            </a>
-        </div>
 
-    <% }); %>
+        @foreach ($conferencias as  $conferencia)
+            <div class="conferencia">
+                <a href="/ponencia/{{$conferencia['id']}}">
+                    <img src={{$conferencia['imagen']}} alt="imagen conferencia" class="imagen_conferencia">
+                    <h3 class="titulo-conferencia">{{$conferencia['titulo']}}</h3>
+                    <div class="conferencia__descripcion">{{$conferencia['descripcion_reducida']}}</div>
+                </a>
+            </div>
+        @endforeach
+
 </section>

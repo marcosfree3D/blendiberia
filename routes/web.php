@@ -9,6 +9,14 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/ponencia/{titulo}', function($titulo) {
     return "Esta pagina corresponde a la ponencia {$titulo}";
 });
+Route::get('/taller/{titulo}', function($titulo) {
+    return "Esta pagina corresponde a la ponencia {$titulo}";
+});
+
+Route::get('/ponente/{nombre}', function($nombre) {
+    return "Esta pagina corresponde a la ponencia {$nombre}";
+});
+
 
 Route::get('/ponencias/{dia}', function($dia){
     return "esta pagina devuleve todas las ponencias del día: {$dia}";

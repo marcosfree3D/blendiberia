@@ -1,9 +1,6 @@
-<%- include('partials/head') %>
+<x-plantilla-base>
 
-
-<body>
-
-    <%- include('partials/barra_navegacion') -%>
+   <%- include('partials/barra_navegacion') -%>
 
     <h1>Ponencia concreta extendida</h1>
     <div>    <%= ponencia.id %>
@@ -15,9 +12,4 @@
     <%= ponencia.fecha %>
     <%= ponencia.hora %>
     <%= ponencia.sala %>    </div>
-
-
-    <%- include('partials/pie_pagina')-%>
-
-</body>
-</html>
+</x-plantilla-base>
