@@ -14,7 +14,7 @@ Route::get('/taller/{titulo}', function($titulo) {
 });
 
 Route::get('/ponente/{nombre}', function($nombre) {
-    return "Esta pagina corresponde a la ponencia {$nombre}";
+    return "Esta pagina corresponde a la ficha de perfil de: {$nombre}";
 });
 
 

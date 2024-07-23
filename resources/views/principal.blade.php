@@ -2,11 +2,9 @@
 
     <x-cabecera-principal/>
     <x-calendario-localizacion/>
-    <x-zona-ponentes/>
+    <x-zona-ponentes :ponentes="$ponentes"/>
     <x-zona-conferencias :conferencias="$conferencias"/>
-
-
-    <x-zona-talleres/>
+    <x-zona-talleres :talleres="$talleres"/>
 
     <x-boton-reserva-naranja/>
 

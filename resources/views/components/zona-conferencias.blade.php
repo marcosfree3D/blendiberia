@@ -13,7 +13,7 @@
 
         @foreach ($conferencias as  $conferencia)
             <div class="conferencia">
-                <a href="/ponencia/{{$conferencia['id']}}">
+                <a href="/ponencia/{{$conferencia['url']}}">
                     <img src={{$conferencia['imagen']}} alt="imagen conferencia" class="imagen_conferencia">
                     <h3 class="titulo-conferencia">{{$conferencia['titulo']}}</h3>
                     <div class="conferencia__descripcion">{{$conferencia['descripcion_reducida']}}</div>

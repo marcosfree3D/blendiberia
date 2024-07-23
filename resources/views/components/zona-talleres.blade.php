@@ -10,11 +10,13 @@
 
 <!--Zona Talleres - detalle talleres-->
 <section class="b-talleres">
-    <% talleres.forEach(taller => { %>
+    @foreach ($talleres as  $taller)
         <div class="taller">
-        <img src="<%= taller.imagen %>" alt="imagen taller" class="imagen_taller">
-        <h3 class="titulo-taller"><%= taller.titulo %></h3>
-        <div class="taller__descripcion"><%= taller.descripcion %></div>
+            <a href="/taller/{{$taller['url']}}">
+                <img src={{$taller['imagen']}} alt="imagen taller" class="imagen_taller">
+                <h3 class="titulo-taller">{{$taller['titulo']}}</h3>
+                <div class="taller__descripcion">{{$taller['descripcion_reducida']}}</div>
+            </a>
         </div>
-    <% }); %>
+    @endforeach
 </section>

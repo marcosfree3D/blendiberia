@@ -13,6 +13,7 @@ class HomeController extends Controller
             [
                 'id' =>1,
                 'titulo' => "Bienvenida",
+                'url' =>"bienvenida",
                 'imagen' => "/images/normal/bienvenida.png",
                 'ponente' =>"Equipo Blendiberia",
                 'perfil' => "/images/svg/icono_home.svg",
@@ -23,6 +24,7 @@ class HomeController extends Controller
             [
                 'id' =>2,
                 'titulo' => " Iluminación en Blender: Fundamentos para la Creación de Escenas",
+                'url' =>"iluminacion-en-blender-fundamentos-para-la-creacion-de-escenas",
                 'imagen' => "/images/normal/alex-trevino-medmain.jpg",
                 'ponente' =>"Alex Treviño",
                 'perfil' => "/images/ponentes/Alex.png",
@@ -32,6 +34,7 @@ class HomeController extends Controller
             [
                 'id' =>3,
                 'titulo' => "Blender en el Mundo de la Publicidad",
+                'url' => "blender-en-el-mundo-de-la-publicidad",
                 'imagen' => "/images/normal/publicidad.webp",
                 'ponente' =>"Alex Baeza",
                 'perfil' => "/images/svg/icono_home.svg",
@@ -42,6 +45,7 @@ class HomeController extends Controller
             [
                 'id' => 4,
                 'titulo' => "Blender sobre todo lo demás",
+                'url' => "blender-sobre-todo-lo-demas",
                 'imagen' => "/images/normal/publicidad.png",
                 'ponente' =>"Irene Arnaiz",
                 'perfil' => "/images/ponentes/Irene.png",
@@ -51,6 +55,56 @@ class HomeController extends Controller
             ],
             ];
 
-        return view('principal',compact('conferencias'));
+            $ponentes =
+            [
+                [
+                'id' => 1,
+                'nombre' =>"Alex Treviño",
+                'url'    =>"alex-trevino",
+                'perfil' =>"Artista Digital",
+                'imagen' =>"/images/ponentes/Alex.png"
+                ],
+                [
+                'id' => 2,
+                'nombre' =>"Irene Arnaiz",
+                'url'    =>"irene-arnaiz",
+                'perfil' =>"Artista CG",
+                'imagen' =>"/images/ponentes/Irene.png"
+                ],
+                [
+                'id' => 3,
+                'nombre' =>"Alex Baeza",
+                'url' =>'alex-trevino',
+                'perfil' =>"3D/Gamedev",
+                'imagen' =>"/images/ponentes/AlexBaeza.png"
+                ],
+
+        ];
+        $talleres  = [
+            [
+                'id' =>1,
+                'titulo' => "Creación de Addons para Blender",
+                'url' => "creacion-de-adons-para-blender",
+                'imagen' => "/images/normal/deportivas.jpg",
+                'tallerista' =>"Zebus3D - TebitoSan",
+                'perfil' => "/images/ponentes/zebustebito.png",
+                'descripcion_reducida' =>"En este taller veremos como una empresa española ha desarrollado tres addons muy potentes para Blender y los está vendiendo en el BlenderMarket...",
+                'descripcion' =>"En este taller veremos como una empresa española ha desarrollado tres addons muy potentes para Blender y los está vendiendo en el BlenderMarket. Además veremos también los principios básicos de creación de un addon, para que si lo necessitas puedas crearte los tuyos propios",
+
+            ],
+            [
+                'id' =>2,
+                'titulo' => "Introducción a Procedural y Geometry Nodes",
+                'url' => 'introduccion-a-procedural-y-geometry-nodes',
+                'imagen' => "/images/normal/Alex_Baeza_Str3dlok_fondo_2.png",
+                'tallerista' =>"Alex Baeza",
+                'perfil' => "/images/ponentes/AlexBaeza.png",
+                'descripcion_reducida' =>"Introducción y acercamiento a flujos de trabajo optimizados y procedurales para mejorar nuestra manera de trabajar, haciéndola más rápida y eficiente. ",
+                'descripcion' =>"Introducción y acercamiento a flujos de trabajo optimizados y procedurales para mejorar nuestra manera de trabajar, haciéndola más rápida y eficiente. Además, ejercicios prácticos para todos los públicos y niveles donde podrán crear su primera herramienta procedural en directo con ayuda de profesionales técnicos. Gracias a estos nuevas metodologías y flujos de trabajo, todos nuestros proyectos podrán verse beneficiados de estas técnicas y tecnologías",
+
+            ],
+        ];
+
+        return view('principal',compact('conferencias','ponentes','talleres'));
     }
 }
