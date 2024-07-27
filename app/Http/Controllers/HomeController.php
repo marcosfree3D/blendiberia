@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use phpDocumentor\Reflection\Types\This;
 
 class HomeController extends Controller
 {
     public function index()
     {
+        $conferencias = DB::select('select * from conferencias');
         $conferencias  = [
             [
                 'id' =>1,
