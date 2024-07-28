@@ -21,18 +21,24 @@
         <div></div>
         <div class ="myFormGrid2">
             <label for="customer_name">Nombre </label>
-            <input type="text" name="nombre" id="nombre" oninvalid="InvalidMsgNombre(this);" oninput="InvalidMsgNombre(this)" required="required">
+            <input  class="fields" type="text" name="nombre" id="nombre" oninvalid="InvalidMsgNombre(this);" oninput="InvalidMsgNombre(this)" required="required">
             <label for="email_address">Email </label>
-            <input type="email" name="email" id="email" oninvalid="InvalidMsgEmail(this);" oninput="InvalidMsgEmail(this)" required="required">
+            <input class="fields" type="email" name="email" id="email" oninvalid="InvalidMsgEmail(this);" oninput="InvalidMsgEmail(this)" required="required">
             <label for="comments">Commentarios</label>
-            <textarea name="comments" id="comments" maxlength="500"></textarea>
+            <textarea class="fields" name="comments" id="comments" maxlength="500"></textarea>
+            <label for="personas">Cantidad de asistentes que vendrán conmigo</label>
+            <input class="fields" type="number" value="1"  name="personas" id="" Numero de asistentes/>
+
         </div>
         <div></div>
         <div class = "myFormGrid">
             <input type="checkbox" id="chk_politica" value="politicaprivacidad" onchange="InvalidMsgPolitica()" required />
                 <div class="texto_chk"> He leído y acepto la <a class="registro__politica_de-privacidad" href="/politica-privacidad/"> política de privacidad </a> de Blendiberia </div>
         </div>
-        <div></div>
+
+        <div>
+
+        </div>
         <button  class="boton" id="btn_reservar"> Reservar mi plaza para la Blendiberia 2024</button>
 
     </form>

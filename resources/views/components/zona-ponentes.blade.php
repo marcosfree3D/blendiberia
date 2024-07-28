@@ -11,12 +11,12 @@
 <section class="b-ponentes">
 
     @foreach ($ponentes as  $ponente)
-        <a href="/ponente/{{$ponente['url']}}">
+        <a href="/ponente/{{$ponente->url}}">
             <div class="ficha_ponente">
 
-                <img src={{$ponente['imagen']}} alt="imagen ponente" class="imagen_ponente">
-                <div class="ponentes__nombre">{{$ponente['nombre']}}</div>
-                <div class="ponentes__cargo">{{$ponente['perfil']}}</div>
+                <img src={{$ponente->imagen_perfil}} alt="imagen ponente" class="imagen_ponente">
+                <div class="ponentes__nombre">{{$ponente->nombre}}</div>
+                <div class="ponentes__cargo">{{$ponente->cargo}}</div>
 
             </div>
         </a>

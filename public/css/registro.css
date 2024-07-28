@@ -7,13 +7,18 @@
   }
   .myFormGrid{
     display: grid;
-    grid-template-columns:5% 95%; 
+    grid-template-columns:5% 95%;
   }
     .myFormGrid2{
     display: grid;
-    grid-template-columns: [labels] auto [controls] 1fr; 
+
+    grid-template-columns: [labels] auto [controls] 1fr;
     gap: 10px;
 
+  }
+  .fields{
+    color: black;
+    font-size: 1.2rem;
   }
   .myFormGrid2 > label  {
     grid-column: labels;

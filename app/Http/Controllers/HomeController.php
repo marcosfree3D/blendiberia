@@ -106,6 +106,8 @@ class HomeController extends Controller
 
             ],
         ];
+        $ponentes = DB::select('select * from ponentes');
+
 
         return view('principal',compact('conferencias','ponentes','talleres'));
     }

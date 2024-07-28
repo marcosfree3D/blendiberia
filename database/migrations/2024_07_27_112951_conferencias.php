@@ -19,11 +19,11 @@ return new class extends Migration
             $table->text('descripcion');
             $table->string('descripcion_reducida');
             $table->date('fecha');
-            $table->string('hora');
-            $table->string('sala');
-            $table->integer('id_ponente');
-            $table->string('ponente');
-            $table->text('perfil_ponente');
+            $table->string('hora')->nullable()->change();
+            $table->string('sala')->default('Cycles');
+            $table->integer('id_ponente')->default(0);
+            $table->string('ponente')->nullable()->change();
+            $table->text('perfil_ponente')->nullable()->change();
             $table->timestamps();
         });
     }
