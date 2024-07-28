@@ -8,17 +8,17 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
     width: 100%;
     /*border: 2px dotted var(--blanco);*/
 }
 .b-programa-lista {
     display: grid;
     grid-template-columns: 1fr 82%;
-    
+
     width: 95%;
     /*border: 3px dotted greenyellow*/;
-    
+
 }
 .b-programa-lista__contenedor__detalle {
     margin:20px;
@@ -67,7 +67,7 @@
     margin-top: 10px;
     border-color: var(--naranja);
     border-bottom: 1px solid var(--naranja);
-   
+
 }
 .b-programa-lista__detalle__cuerpo{
     font-family: "Roboto-Light";
@@ -105,8 +105,9 @@
 }
 .imagen_ponente{
     border-radius: 100%;
-    width: 185px;
-    height: 100%;
+    width: 300px;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
 
 }
 
