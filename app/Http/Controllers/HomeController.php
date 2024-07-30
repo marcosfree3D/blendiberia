@@ -57,31 +57,6 @@ class HomeController extends Controller
             ],
             ];
 
-            $ponentes =
-            [
-                [
-                'id' => 1,
-                'nombre' =>"Alex Treviño",
-                'url'    =>"alex-trevino",
-                'perfil' =>"Artista Digital",
-                'imagen' =>"/images/ponentes/Alex.png"
-                ],
-                [
-                'id' => 2,
-                'nombre' =>"Irene Arnaiz",
-                'url'    =>"irene-arnaiz",
-                'perfil' =>"Artista CG",
-                'imagen' =>"/images/ponentes/Irene.png"
-                ],
-                [
-                'id' => 3,
-                'nombre' =>"Alex Baeza",
-                'url' =>'alex-trevino',
-                'perfil' =>"3D/Gamedev",
-                'imagen' =>"/images/ponentes/AlexBaeza.png"
-                ],
-
-        ];
         $talleres  = [
             [
                 'id' =>1,
@@ -106,7 +81,8 @@ class HomeController extends Controller
 
             ],
         ];
-        $ponentes = DB::select('select * from ponentes');
+        $ponentes = DB::table('ponentes')->paginate(6);
+        /*$ponentes = DB::select('select * from ponentes '); */
 
 
         return view('principal',compact('conferencias','ponentes','talleres'));

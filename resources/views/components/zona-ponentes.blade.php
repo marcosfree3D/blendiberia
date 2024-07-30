@@ -10,6 +10,13 @@
 <!--Zona ponentes fotos-->
 <section class="b-ponentes">
 
+    {{--Aqui ver como cambiar el valor de $ponentes de cara a la paginación.
+        tal vez cambiar el valor de Ponentes, o tal vez  si se puede
+        los valores del foreach, o el foreach por algun otro for que
+         se pueda controlar con variables. Con eso se resolvería la paginación
+
+    --}}
+
     @foreach ($ponentes as  $ponente)
         <a href="/ponente/{{$ponente->url}}">
             <div class="ficha_ponente">
@@ -21,21 +28,4 @@
             </div>
         </a>
         @endforeach
-
-
-    <div class="ficha_ponente">
-        <img src="/images/svg/user.svg" alt="" class="imagen_ponente">
-        <div class="ponentes__nombre">Pendiente</div>
-        <div class="ponentes__cargo">Artista 3D</div>
-    </div>
-    <div class="ficha_ponente">
-        <img src="/images/svg/user.svg" alt="" class="imagen_ponente">
-        <div class="ponentes__nombre">Pendiente</div>
-        <div class="ponentes__cargo">Artista 3D</div>
-    </div>
-    <div class="ficha_ponente">
-        <img src="/images/svg/user.svg" alt="" class="imagen_ponente">
-        <div class="ponentes__nombre">Pendiente</div>
-        <div class="ponentes__cargo">Artista 3D</div>
-    </div>
 </section>

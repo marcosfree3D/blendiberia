@@ -18,7 +18,7 @@ body {
     padding-left: 5rem;
     padding-right: 5rem;
     color: var(--blanco);
-    margin:0 auto; 
+    margin:0 auto;
     max-width: 1440px;
 
 }
@@ -100,7 +100,7 @@ TIPOS Y POSICIONES DE TEXTO
 .dark{
     padding-left: 2rem;
     width: auto;
-   
+
 }
 
 .shopping{
@@ -222,7 +222,7 @@ TIPOS Y POSICIONES DE TEXTO
     margin-bottom: 0px;
     font-size: 1.5rem;;
   }
-  
+
   @container sidebar (min-width: 300px) {
     .fechalogo {
       font-size: 2em;
@@ -258,7 +258,7 @@ TIPOS Y POSICIONES DE TEXTO
     color:var(--naranja);
     background-color: var(--naranja);
     border-radius: 3px;
-    
+
     width: 97%;
     height: 5px;
     margin-top: 22px;
@@ -320,7 +320,7 @@ TIPOS Y POSICIONES DE TEXTO
 .textolegal a:visited {
     color: var(--blanco);
 }
-  
+
   /* mouse over link */
 .textolegal a:hover {
     color:var(--naranja);
@@ -339,7 +339,7 @@ TIPOS Y POSICIONES DE TEXTO
 .pol-pri a:visited {
     color: var(--blanco);
 }
-  
+
   /* mouse over link */
 .pol-pri a:hover {
     color:var(--naranja);
@@ -361,7 +361,7 @@ TIPOS Y POSICIONES DE TEXTO
 }
 
 .ponentes__nombre{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Roboto-Regular";
     color: var(--blanco);
 }
@@ -377,7 +377,7 @@ TIPOS Y POSICIONES DE TEXTO
     .ponentes__cargo{
         font-size: 1rem;
     }
-    
+
 }
 @media (max-width: 1062px){
     .ponentes__nombre{
@@ -386,7 +386,7 @@ TIPOS Y POSICIONES DE TEXTO
     .ponentes__cargo{
         font-size: 0.7rem;
     }
-    
+
 }
 @media (max-width: 802px){
     .ponentes__nombre{
@@ -395,7 +395,7 @@ TIPOS Y POSICIONES DE TEXTO
     .ponentes__cargo{
         font-size: 0.5rem;
     }
-    
+
 }
 
 
@@ -498,13 +498,13 @@ POLITICA DE PUBLICIDAD
     display: grid;
     grid-template-columns: 20% auto;
     width: 100%;
-    
+
     /*border: 1px solid black;*/
 }
 .b-calendario-localizacion_fechas__texto{
     position: relative;
     top: -10px;
-  
+
     font-size: 2rem;
     font-family: "Roboto-Regular";
     align-content: center;
@@ -538,7 +538,7 @@ POLITICA DE PUBLICIDAD
     text-align: left;
     font-family: 'roboto-regular', sans-serif;
     color: var(--naranja);
-    
+
 }
 .b-ponentes{
     display: flex;
@@ -551,7 +551,7 @@ POLITICA DE PUBLICIDAD
     color: var(--naranja);
     font-size: 1.2rem;
 }
-.b-conferencias, 
+.b-conferencias,
 .b-talleres,
 .b-videos {
     display: flex;
@@ -606,7 +606,7 @@ POLITICA DE PUBLICIDAD
     border-radius: 2rem;
     min-width: 25rem;
     height: 3rem;
-    
+
 }
 
 
