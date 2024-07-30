@@ -12,6 +12,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/talleres.css') }}">
+    @livewireStyles
 </head>
 <body>
 
@@ -32,7 +33,7 @@
     </footer>
     <script src={{ asset('/javascript/blendiberia.js') }}></script>
     <script src={{ asset('/javascript/dark.js')}}></script>
-
+    @livewireScripts()
 </body>
 </html>
 
