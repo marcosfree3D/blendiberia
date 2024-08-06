@@ -287,6 +287,19 @@ TIPOS Y POSICIONES DE TEXTO
     margin: 10px;
     transition: all 300ms ease-in-out;
 }
+.ponente_anterior {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.ponente_siguiente {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    transition: all 300ms ease-in-out;
+}
 .boton_slide:first-of-type{
     margin-left: 30px;
 }

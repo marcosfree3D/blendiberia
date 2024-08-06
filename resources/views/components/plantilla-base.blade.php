@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Blendiberia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/reset.css') }}">
     <link rel="stylesheet" href="{{ asset('css/blendiberia.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('css/registro.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+
     <link rel="stylesheet" href="{{ asset('css/talleres.css') }}">
-    @livewireStyles
 </head>
 <body>
 
@@ -33,7 +34,8 @@
     </footer>
     <script src={{ asset('/javascript/blendiberia.js') }}></script>
     <script src={{ asset('/javascript/dark.js')}}></script>
-    @livewireScripts()
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src ={{ asset('/javascript/slide.js')}}></script>
 </body>
 </html>
 

@@ -81,7 +81,7 @@ class HomeController extends Controller
 
             ],
         ];
-        $ponentes = DB::table('ponentes')->paginate(6);
+        $ponentes = DB::select('select * from ponentes');
         /*$ponentes = DB::select('select * from ponentes '); */
 
 
