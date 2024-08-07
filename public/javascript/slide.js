@@ -4,10 +4,10 @@ const swiper = new Swiper('.swiper', {
     loop: true,
 
 
-    // If we need pagination
+    /* If we need pagination
     pagination: {
       el: '.swiper-pagination',
-    },
+    }, */
 
     // Navigation arrows
     navigation: {
@@ -18,13 +18,13 @@ const swiper = new Swiper('.swiper', {
     // Responsive breakpoints
     breakpoints: {
         0:{
-            slidesPerView: 2
+                slidesPerView: 2
         },
         620:{
-            slidesPerView: 4
+                slidesPerView: 4
         },
-        1024:{ slidesPerView: 6
-
+        1024:{
+                slidesPerView: 6
         }
     }
   });
