@@ -10,4 +10,8 @@ class RegistroController extends Controller
     {
         return view('registro');
     }
+    public function store()
+    {
+        return request();
+    }
 }

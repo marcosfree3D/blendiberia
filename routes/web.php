@@ -27,6 +27,7 @@ Route::get('/talleres/{dia}', function($dia){
 });
 
 Route::get("/registro", [RegistroController::class, 'index']);
+Route::post("/registro/store", [RegistroController::class, 'store'])->name('registro.store');
 
 Route::get('politica-privacidad', function(){
     return "esta pagina muestra la politica de privacidad";

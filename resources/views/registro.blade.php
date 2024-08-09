@@ -10,7 +10,10 @@
         <p class="cuerpo__textos-formulario"> <b>o  un día, viernes 8 </b> </p>
             <p class="cuerpo__textos-formulario"> <i>**(dependerá de las necesidades de la organización y los profesionales disponibles)</i> </p>
      <h3 class="texto-naranja">FORMULARIO DE INTENCIÓN DE ASISTENCIA A LA BLENDIBERIA 2024</h3>
-    <form action="nuevoregistro" method="post" class="myForm">
+
+
+     <form action="{{route('registro.store')}}" method="post" class="myForm">
+        @csrf
         <div class = "myFormGrid">
             <input type="checkbox" id="chk_blendiberia" value="asistirBlendiberia" />
                     <div class="texto_chk">Tengo interés en asistir a la Blendiberia 2024 que se celebrará en Sitges provincia de Barcelona,
@@ -39,7 +42,7 @@
         <div>
 
         </div>
-        <button  class="boton" id="btn_reservar"> Reservar mi plaza para la Blendiberia 2024</button>
+        <button type="submit" class="boton" id="btn_reservar"> Reservar mi plaza para la Blendiberia 2024</button>
 
     </form>
     <div class="proteccion-datos">

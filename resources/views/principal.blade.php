@@ -8,7 +8,7 @@
 
     <x-boton-reserva-naranja/>
 
-    <x-zona-videos/>
+    {{--<x-zona-videos/>--}}
 
 </x-plantilla-base>
 
