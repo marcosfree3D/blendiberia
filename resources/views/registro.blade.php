@@ -15,10 +15,10 @@
      <form action="{{route('registro.store')}}" method="post" class="myForm">
         @csrf
         <div class = "myFormGrid">
-            <input type="checkbox" id="chk_blendiberia" value="asistirBlendiberia" />
+            <input type="checkbox" name="interes_blendiberia" id="chk_blendiberia" value="si" />
                     <div class="texto_chk">Tengo interés en asistir a la Blendiberia 2024 que se celebrará en Sitges provincia de Barcelona,
                     (o alrededores de Barcelona) los días 9 y 10 de Noviembre 2024 </div>
-            <input type="checkbox" id="chk_talleres" value="asistirTalleres" />
+            <input type="checkbox" name="interes_talleres" id="chk_talleres" value="si" />
                 <div class="texto_chk">Tengo interés en asistir a alguno de los talleres que se realizarán en los días 7 y 8 de Noviembre 2024</div>
         </div>
         <div></div>

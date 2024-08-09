@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class RegistroController extends Controller
 {
@@ -10,8 +11,8 @@ class RegistroController extends Controller
     {
         return view('registro');
     }
-    public function store()
+    public function store(Request $request)
     {
-        return request();
+        return $request;
     }
 }
