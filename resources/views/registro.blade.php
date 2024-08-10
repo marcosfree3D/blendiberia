@@ -16,11 +16,15 @@
         @csrf
         <div class = "myFormGrid">
             <input type="checkbox" name="interes_blendiberia" id="chk_blendiberia" value="si" />
-                    <div class="texto_chk">Tengo interés en asistir a la Blendiberia 2024 que se celebrará en Sitges provincia de Barcelona,
+            <div class="texto_chk">Tengo interés en asistir a la Blendiberia 2024 que se celebrará en Sitges provincia de Barcelona,
                     (o alrededores de Barcelona) los días 9 y 10 de Noviembre 2024 </div>
+
             <input type="checkbox" name="interes_talleres" id="chk_talleres" value="si" />
-                <div class="texto_chk">Tengo interés en asistir a alguno de los talleres que se realizarán en los días 7 y 8 de Noviembre 2024</div>
-        </div>
+            <div class="texto_chk">Tengo interés en asistir a alguno de los talleres que se realizarán en los días 7 y 8 de Noviembre 2024</div>
+
+            <input type="checkbox" name="aeub" value="si" class="chk_aeub" />
+            <div class="texto_chk">Tengo interés en ser soci@ de la AEUB (Asociación Española de usuari@s de Blender)</div>
+            </div>
         <div></div>
         <div class ="myFormGrid2">
             <label for="customer_name">Nombre </label>
@@ -28,14 +32,14 @@
             <label for="email_address">Email </label>
             <input class="fields" type="email" name="email" id="email" oninvalid="InvalidMsgEmail(this);" oninput="InvalidMsgEmail(this)" required="required">
             <label for="comments">Commentarios</label>
-            <textarea class="fields" name="comments" id="comments" maxlength="500"></textarea>
+            <textarea class="fields" name="comentarios" id="comments" maxlength="500"></textarea>
             <label for="personas">Cantidad de asistentes que vendrán conmigo</label>
             <input class="fields" type="number" value="1"  name="personas" id="" Numero de asistentes/>
 
         </div>
         <div></div>
         <div class = "myFormGrid">
-            <input type="checkbox" id="chk_politica" value="politicaprivacidad" onchange="InvalidMsgPolitica()" required />
+            <input type="checkbox" name="politica" id="chk_politica" value="si" onchange="InvalidMsgPolitica()" required />
                 <div class="texto_chk"> He leído y acepto la <a class="registro__politica_de-privacidad" href="/politica-privacidad/"> política de privacidad </a> de Blendiberia </div>
         </div>
 

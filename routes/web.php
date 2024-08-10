@@ -6,6 +6,13 @@ use App\Http\Controllers\RegistroController;
 // Principal
 Route::get('/', [HomeController::class, 'index']);
 
+Route::get('/ponencias/', function(){
+    return view('lista_conferencias');
+});
+
+Route::get('talleres/', function(){
+    return view('lista_talleres');
+});
 Route::get('/ponencia/{titulo}', function($titulo) {
     return "Esta pagina corresponde a la ponencia {$titulo}";
 });
@@ -29,8 +36,8 @@ Route::get('/talleres/{dia}', function($dia){
 Route::get("/registro", [RegistroController::class, 'index']);
 Route::post("/registro/store", [RegistroController::class, 'store'])->name('registro.store');
 
-Route::get('politica-privacidad', function(){
-    return "esta pagina muestra la politica de privacidad";
+Route::get("/politica-privacidad", function(){
+    return view('politicaprivacidad');
 });
 
 
@@ -41,7 +48,7 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('/dashboard', function () {
+    Route::get('/control', function () {
         return view('dashboard');
     })->name('dashboard');
 });

@@ -1,4 +1,5 @@
 
+<x-plantilla-base>
 <div class="b-contenedor-eventos">
     <h2 class="texto-programa">PROGRAMA de TALLERES</h2>
     <P>** LA REALIZACIÓN DE LOS TALLERES ESTÁ VINCULADA A QUE HAYA UN MÍNIMO DE PERSONAS SUSCRITAS PARA QUE SE PUEDAN LLEVAR A CABO
@@ -51,3 +52,4 @@
     </div>
 
 </div>
+</x-plantilla-base>

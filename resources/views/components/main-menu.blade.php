@@ -11,7 +11,7 @@
 
         <ul class="links">
             <li><a href="/">Inicio</a></li>
-            <li><a href="/conferencias">Conferencias</a></li>
+            <li><a href="/ponencias">Ponencias</a></li>
             <li><a href="/talleres">Talleres</a></li>
             <!--<li><a href="/videos">Vídeos</a></li> -->
             <li><a href="/merchandise">Merchandise</a></li>

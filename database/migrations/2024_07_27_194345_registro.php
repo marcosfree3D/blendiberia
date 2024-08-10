@@ -17,7 +17,7 @@ return new class extends Migration
             $table->string('email');
             $table->text('comentarios');
             $table->integer('personas')->default(1);
-            $table->boolean('accepto_politica_privacidad')->default(false);
+            $table->boolean('acepto_politica_privacidad')->default(false);
             $table->boolean('blendiberia')->default(false);
             $table->boolean('talleres')->default(false);
             $table->boolean('aeub')->default(false);

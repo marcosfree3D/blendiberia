@@ -1,4 +1,4 @@
-
+<x-plantilla-base>
 <div class="b-contenedor-eventos">
     <h2 class="texto-programa">PROGRAMA</h2>
 
@@ -48,3 +48,4 @@
     </div>
 
 </div>
+</x-plantilla-base>
