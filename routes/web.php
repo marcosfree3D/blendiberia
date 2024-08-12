@@ -7,42 +7,56 @@ use App\Http\Controllers\RegistroController;
 // Principal
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('ponencias/', function(){
+Route::get('ponencias/{dia}', function($dia){
 
-    $conferencias = DB::select('select * from conferencias');
+    $conferencias = DB::table('conferencias')->where('dia',$dia);
     $ponencia = DB::select('select * from conferencias where id = 1' );
-    $dia = 9;
-    return view('lista_conferencias', compact('conferencias','dia','ponencia'));
-});
-Route::get('ponencias/{titulo}', function(){
-
-    $conferencias = DB::select('select * from conferencias');
-    $ponencia = DB::select('select * from conferencias where id = 1' );
-    $dia = 9;
+    $conferencias = $conferencias->get();
     return view('lista_conferencias', compact('conferencias','dia','ponencia'));
 });
 
-Route::get('talleres/', function(){
-    return view('lista_talleres');
+Route::get('ponencias/{dia}/{titulo}', function($dia,$titulo){
+
+    $conferencias = DB::table('conferencias')->where('dia',$dia);
+    $ponencia = DB::table('conferencias')->where('url',$titulo);
+    $conferencias = $conferencias->get();
+    $ponencia = $ponencia->get();
+    return view('lista_conferencias', compact('conferencias','dia','ponencia'));
 });
+
+
+
+Route::get('talleres/{dia}', function($dia){
+    $talleres = DB::table('talleres')->where('dia',$dia);
+    $taller = DB::select('select * from talleres where id = 1' );
+    $talleres = $talleres->get();
+    return view('lista_talleres', compact('talleres','dia','taller'));
+});
+
+Route::get('talleres/{dia}/{titulo}', function($dia, $titulo){
+    $talleres = DB::table('talleres')->where('dia',$dia);
+    $tallerConcreto = DB::table('talleres')->where('url',$titulo);
+    $talleres = $talleres->get();
+    $tallerConcreto = $tallerConcreto->get();
+    return view('lista_talleres', compact('talleres','dia','taller'));
+});
+
 Route::get('/ponencia/{titulo}', function($titulo) {
-    return "Esta pagina corresponde a la ponencia {$titulo}";
+    $ponencia = DB::table('conferencias')->where('url',$titulo);
+    $ponencia = $ponencia->get();
+    return view('ponencia', compact($ponencia));
 });
 Route::get('/taller/{titulo}', function($titulo) {
-    return "Esta pagina corresponde a la ponencia {$titulo}";
+    $taller = DB::table('talleres')->where('url',$titulo);
+    $taller = $taller->get();
+    return view('taller', compact($taller));
 });
 
 Route::get('/ponente/{nombre}', function($nombre) {
-    return "Esta pagina corresponde a la ficha de perfil de: {$nombre}";
-});
+    $ponente = DB::table('ponentes')->where('url',$nombre);
+    $ponente = $ponente->get();
+    return view('ponente', compact($ponente));
 
-
-Route::get('/ponencias/{dia}', function($dia){
-    return "esta pagina devuleve todas las ponencias del día: {$dia}";
-});
-
-Route::get('/talleres/{dia}', function($dia){
-    return "esta pagina devuleve todos los talleres del día: {$dia}";
 });
 
 Route::get("/registro", [RegistroController::class, 'index']);

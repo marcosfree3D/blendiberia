@@ -36,6 +36,7 @@
     text-align: left;
     color: var(--blanco);
     font-family: "Roboto-Regular";
+    font-size: 1.5rem;
     padding: 5px 0px;
 }
 .b-programa-lista__contenedor_eventos{
@@ -47,19 +48,20 @@
 .b-programa-lista__contenedor_eventos_horarios{
     display: flex;
     flex-direction: column;
+    font-size: 1.5rem;
     /*border: 3px dashed blueviolet;*/
 }
 
 .b-programa-lista__contenedor_eventos_horarios_row{
     display: grid;
-    grid-template-columns: 1fr 3fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr;
     justify-content: start;
     text-decoration: none;
     margin-left: 20px;
     font-family: "roboto-Regular", sans-serif;
     color: var(--naranja);
-    font-size: 15px;
-    height: 25px;
+    font-size: 1.4rem;
+    height: 3rem;
     margin-top: 5px;
     /*border: 2px dotted white;*/
 }
@@ -71,7 +73,7 @@
 }
 .b-programa-lista__detalle__cuerpo{
     font-family: "Roboto-Light";
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: var(--blanco);
 }
 .b-programa-lista-detalle__imagen{
