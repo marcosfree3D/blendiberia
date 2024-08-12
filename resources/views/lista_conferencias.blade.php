@@ -16,29 +16,25 @@
 
         <div class="b-programa-lista__contenedor_eventos"> <!--contenedor eventos -->
             <div class="b-programa-lista__contenedor_eventos_horarios">
-                <p class="fecha-programa"> <%= dia %> </p>
-                <% if (conferencias.length >0) { %>
-                    <% conferencias.forEach(conferencia => { %>
-                        <a href="/conferencias/<%= conferencia.dia %>/<%= conferencia.id %> " class="b-programa-lista__contenedor_eventos_horarios_row">
-                            <p><%= conferencia.hora %></p>
-                            <p> <%= conferencia.titulo %> </p>
-                            <p> <%= conferencia.tipo %></p>
-                            <% if (conferencia.precio>0) { %>
-                                <div class="b-programalista__evento__precio">
-                                    <%= conferencia.precio %> €
-                                </div>
-                            <% } %>
-                        </a>
-                    <% }) %>
+                <p class="fecha-programa"> {{$dia}} </p>
+                    @foreach($conferencias as $conferencia)
+                        <a href="/conferencias/{{$conferencia->url}} " class="b-programa-lista__contenedor_eventos_horarios_row">
+                            <p>{{$conferencia->hora}}</p>
+                            <p> {{$conferencia->titulo}} </p>
 
-                <% } %>
+                        </a>
+                     @endforeach
+
             </div>
             <div class="b-programa-lista__contenedor__detalle">
-                <p class="b-programa-lista__contenedor__titulo"><%= titulo %> </p>
-                <div class="b-programa-lista__contenedor__detalle__imgtxt">
-                    <img src="<%= imagen %>" alt="Imagen de la conferencia" class="b-programa-lista-detalle__imagen">
-                    <p class="b-programa-lista__detalle__cuerpo"><%= descripcion %> </p>
-                </div>
+                @foreach ( $ponencia as $p )
+                    <p class="b-programa-lista__contenedor__titulo">{{$p->titulo}} </p>
+                    <div class="b-programa-lista__contenedor__detalle__imgtxt">
+                        <img src={{$p->imagen}} alt="Imagen de la conferencia" class="b-programa-lista-detalle__imagen">
+                        <p class="b-programa-lista__detalle__cuerpo">{{$p->descripcion}} </p>
+                    </div>
+                @endforeach
+
             </div>
         </div> <!--contenedor precios -->
         <div>

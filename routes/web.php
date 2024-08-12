@@ -2,12 +2,24 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\RegistroController;
 // Principal
 Route::get('/', [HomeController::class, 'index']);
 
-Route::get('/ponencias/', function(){
-    return view('lista_conferencias');
+Route::get('ponencias/', function(){
+
+    $conferencias = DB::select('select * from conferencias');
+    $ponencia = DB::select('select * from conferencias where id = 1' );
+    $dia = 9;
+    return view('lista_conferencias', compact('conferencias','dia','ponencia'));
+});
+Route::get('ponencias/{titulo}', function(){
+
+    $conferencias = DB::select('select * from conferencias');
+    $ponencia = DB::select('select * from conferencias where id = 1' );
+    $dia = 9;
+    return view('lista_conferencias', compact('conferencias','dia','ponencia'));
 });
 
 Route::get('talleres/', function(){
