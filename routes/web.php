@@ -28,9 +28,10 @@ Route::get('ponencias/{dia}/{titulo}', function($dia,$titulo){
 
 Route::get('talleres/{dia}', function($dia){
     $talleres = DB::table('talleres')->where('dia',$dia);
-    $taller = DB::select('select * from talleres where id = 1' );
+    $tallerConcreto = DB::table('talleres')->where('id',1);
     $talleres = $talleres->get();
-    return view('lista_talleres', compact('talleres','dia','taller'));
+    $tallerConcreto= $tallerConcreto->get();
+    return view('lista_talleres', compact('talleres','dia','tallerConcreto'));
 });
 
 Route::get('talleres/{dia}/{titulo}', function($dia, $titulo){
@@ -38,7 +39,7 @@ Route::get('talleres/{dia}/{titulo}', function($dia, $titulo){
     $tallerConcreto = DB::table('talleres')->where('url',$titulo);
     $talleres = $talleres->get();
     $tallerConcreto = $tallerConcreto->get();
-    return view('lista_talleres', compact('talleres','dia','taller'));
+    return view('lista_talleres', compact('talleres','dia','tallerConcreto'));
 });
 
 Route::get('/ponencia/{titulo}', function($titulo) {

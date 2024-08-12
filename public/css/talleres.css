@@ -65,6 +65,19 @@
     margin-top: 5px;
     /*border: 2px dotted white;*/
 }
+.b-programa-lista__contenedor_eventos_horarios_talleres_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: "roboto-Regular", sans-serif;
+    color: var(--naranja);
+    font-size: 1.4rem;
+    height: 3rem;
+    margin-top: 5px;
+    /*border: 2px dotted white;*/
+}
 .b-programa-lista__contenedor_eventos_horarios p{
     margin-top: 10px;
     border-color: var(--naranja);
@@ -121,4 +134,8 @@
     color: var(--naranja);
     font-family: 'Roboto-Regular' ;
     font-size: 3vw;
+}
+
+.adv-talleres{
+    font-size: 1.2rem;
 }
