@@ -33,8 +33,8 @@
             <input class="fields" type="email" name="email" id="email" oninvalid="InvalidMsgEmail(this);" oninput="InvalidMsgEmail(this)" required="required">
             <label for="comments">Commentarios</label>
             <textarea class="fields" name="comentarios" id="comments" maxlength="500"></textarea>
-            <label for="personas">Cantidad de asistentes que vendrán conmigo</label>
-            <input class="fields" type="number" value="1"  name="personas" id="" Numero de asistentes/>
+            <label for="personas">Cantidad de acompañantes que vendrán conmigo</label>
+            <input class="fields" type="number" value="0"  name="personas" id="" Numero de asistentes/>
 
         </div>
         <div></div>
