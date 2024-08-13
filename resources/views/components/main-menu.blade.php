@@ -1,14 +1,14 @@
 <a class="logobarra" href="/">
     <img src="/images/svg/icono_home.svg" alt="" width="30">
 </a>
-<!-- BARRA DE MENÚ RESPONSIVE -->
-<div class="mobile-nav-toogle" id="mobileNavToogle">
-    <img  class="hamburger" id="id_hamburger" src="/images/svg/hamburger.svg" alt=" hamburger main menu">
-    <img  class="cerrar" id="id_close" src="/images/svg/close.png" alt=" close main menu">
-</div>
-<nav class="barramenu" id="id_barramenu">
-    <div class="textobarra">
 
+<nav class="barramenu" id="id_barramenu">
+    <!-- BARRA DE MENÚ RESPONSIVE -->
+    <div class="mobile-nav-toogle" id="mobileNavToogle">
+        <img  class="hamburger" id="id_hamburger" src="/images/svg/hamburger.svg" alt=" hamburger main menu">
+        <img  class="cerrar" id="id_close" src="/images/svg/close.png" alt=" close main menu">
+    </div>
+    <div class="textobarra">
         <ul class="links">
             <li><a href="/">Inicio</a></li>
             <li><a href="/ponencias/9">Ponencias</a></li>
