@@ -31,7 +31,7 @@
             <input  class="fields" type="text" name="nombre" id="nombre" oninvalid="InvalidMsgNombre(this);" oninput="InvalidMsgNombre(this)" required="required">
             <label for="email_address">Email </label>
             <input class="fields" type="email" name="email" id="email" oninvalid="InvalidMsgEmail(this);" oninput="InvalidMsgEmail(this)" required="required">
-            <label for="comments">Commentarios</label>
+            <label for="comments">Comentarios</label>
             <textarea class="fields" name="comentarios" id="comments" maxlength="500"></textarea>
             <label for="personas">Cantidad de acompañantes que vendrán conmigo</label>
             <input class="fields" type="number" value="0"  name="personas" id="" Numero de asistentes/>
