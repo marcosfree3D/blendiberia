@@ -89,3 +89,28 @@
 
     color: var(--naranja);
   }
+  .user_registro__imagen {
+    width: 100px;
+
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  .user_registro__regreso {
+    width: 200px;
+    height: 3rem;
+    font-family: "Roboto-Regular";
+    font-size: 1rem;
+    background-color: var(--naranja);
+    color:var(--blanco);
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-left: 3rem;
+    padding-top: 0.7rem;
+  }
+  .user_registro__titulo{
+    font-family: "Roboto-Regular";
+    font-size: 2rem;
+    text-align: center;
+
+  }

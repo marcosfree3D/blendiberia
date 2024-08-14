@@ -41,7 +41,7 @@ class RegistroController extends Controller
         DB::insert('insert into registros (nombre, email, comentarios, personas, blendiberia, talleres, aeub, acepto_politica_privacidad)
          values (?,?,?,?,?,?,?,?)',
          [$nombre,$email,$comentarios, $personas, $interes_blendiberia, $interes_talleres, $aeub, $politica]);
-        return("Ya has sido registrado, gracias por tu colaboración");
+        return view("registro-realizado");
 
     }
 }
