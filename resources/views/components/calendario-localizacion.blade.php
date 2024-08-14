@@ -24,6 +24,7 @@
             <div class="direccion-sala">
                 <p class="nombre-hotel"><b>Meliá Sitges</b></p>
                 <p class="direccion-postal">c/Joan Salvat Papasseit, 38</p>
+                <p class="direccion-postal">*Pendiente confirmar según cantidad de asistentes</p>
             </div>
         </div>
         <div class="b-calendario-localizacion-mapa">
