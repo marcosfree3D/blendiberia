@@ -59,6 +59,30 @@ TIPOS Y POSICIONES DE TEXTO
     align-self: center;
     justify-content: flex-start;
 }
+.barra-menu-movil{
+    position: absolute;
+    display: none;
+    width: 100%;
+    top: 0;
+    flex-direction: row;
+    background-color: var(--azul_oscuro);
+}
+
+.menu-movil{
+    display: none;
+    background-color: var(--azul_oscuro);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: flex-start;
+}
 .barramenu a {
     float: left;
     font-family: "roboto-light", sans-serif;
@@ -82,6 +106,12 @@ TIPOS Y POSICIONES DE TEXTO
     display: flex;
     align-items: center;
     align-self: center;
+}
+.links-movil{
+    display: none;
+}
+.social-movil{
+    display: none;
 }
 
 .barramenu .links-login{
@@ -119,8 +149,8 @@ TIPOS Y POSICIONES DE TEXTO
 .hamburger{
         display: none;
         position: fixed;
-        right: 15px;
         top: 5px;
+        right: 15px;
         width: 35px;
         height: 35px;
         z-index: 9999;
