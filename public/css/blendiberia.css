@@ -20,6 +20,7 @@ body {
     color: var(--blanco);
     margin:0 auto;
     max-width: 1440px;
+    height: 100vh;
 
 }
 /*-------------------------
@@ -625,6 +626,7 @@ POLITICA DE PUBLICIDAD
     height: 50px;
     bottom: 0;
     left:0;
+    webkit-backface-visibility: hidden;
     background-color: var(--azul_oscuro);
 }
 .b-imagenlogopie{
