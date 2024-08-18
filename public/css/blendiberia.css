@@ -584,6 +584,7 @@ POLITICA DE PUBLICIDAD
 }
 .b-ponentes{
     display: flex;
+    flex-wrap: wrap;
     gap: 0.5rem;
     width: 100%;
     text-align: left;
@@ -592,6 +593,7 @@ POLITICA DE PUBLICIDAD
     font-family: "Roboto-Regular";
     color: var(--naranja);
     font-size: 1.2rem;
+
 }
 .b-conferencias,
 .b-talleres,
