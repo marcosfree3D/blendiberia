@@ -110,7 +110,7 @@
 
     .b-ponentes{
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
     .ficha_ponente{
         margin-right: 1.5rem;
