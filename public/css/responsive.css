@@ -94,6 +94,12 @@
     .b-header{
         flex-direction: column;
     }
+
+    .logo-blendiberia-top{
+        margin-left: 6%;
+        margin-top: 3rem;
+    }
+
     .b-calendario{
         display: flex;
         flex-direction: column;
@@ -177,6 +183,10 @@
     .b-ponentes{
         justify-content: space-between;
         flex-wrap: wrap;
+    }
+    .logo-blendiberia-top{
+        margin-left: 6%;
+        margin-top: 3rem;
     }
     .imagen_ponente{
         width: 88px;
