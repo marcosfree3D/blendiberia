@@ -119,13 +119,13 @@
     }
 
     .ponentes__nombre{
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
     .imagen_ponente{
         height: auto !important;
     }
     .ponentes__cargo{
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     }
     .b-conferencias{
         flex-direction: column !important;

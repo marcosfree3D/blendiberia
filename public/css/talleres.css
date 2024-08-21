@@ -117,7 +117,7 @@
     align-items: center;
     flex-direction: column;
     color: var(--blanco);
-    min-width: 150px;
+    min-width: 50px;
 }
 .imagen_ponente{
     border-radius: 100%;
