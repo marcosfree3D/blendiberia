@@ -7,6 +7,9 @@
     .mobile-nav-toogle{
         width: 80%;
     }
+    .b-header{
+        flex-direction: column;
+    }
     .barramenu{
         position: absolute;
         display: none;
@@ -87,6 +90,9 @@
     body{
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    .b-header{
+        flex-direction: column;
     }
     .b-calendario{
         display: flex;
