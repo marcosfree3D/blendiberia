@@ -133,6 +133,7 @@
     }
     .ficha_ponente{
         margin-right: 1.5rem;
+        min-width: min-content !important;
     }
 
     .titulo-conferencia, .titulo-taller, .titulo_video {
