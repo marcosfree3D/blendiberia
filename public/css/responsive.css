@@ -138,6 +138,9 @@
     .titulo-conferencia, .titulo-taller, .titulo_video {
         font-size: 1.5rem;
     }
+    .titulo-texto{
+        font-size: 2.5rem;
+    }
 
     .ponentes__nombre{
         font-size: 0.7rem;
