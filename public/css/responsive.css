@@ -163,6 +163,8 @@
 
     .boton_registro {
         min-width: 20rem;
+        font-size: 1.5rem;
+        padding-top: 0.4rem;
     }
 
     .botoncabecera{

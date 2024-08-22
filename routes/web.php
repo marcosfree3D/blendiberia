@@ -56,7 +56,7 @@ Route::get('/taller/{titulo}', function($titulo) {
 Route::get('/ponente/{nombre}', function($nombre) {
     $ponente = DB::table('ponentes')->where('url',$nombre);
     $ponente = $ponente->get();
-    return view('ponente', compact($ponente));
+    return view('ponente', )->with('ponente',$ponente);
 
 });
 
