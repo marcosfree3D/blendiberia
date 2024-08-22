@@ -109,6 +109,13 @@
         margin-top: 1.5rem;
 
     }
+    .b-calendario-localizacion_fechas__texto{
+        top:3px;
+        font-size: 1.5rem;
+    }
+    .nombre-hotel{
+        font-size: 1.5rem;
+    }
     .b-calendario-localizacion-sitio{
         margin-top: 1.5rem;
     }
@@ -126,8 +133,10 @@
     }
     .ficha_ponente{
         margin-right: 1.5rem;
+    }
 
-
+    .titulo-conferencia, .titulo-taller, .titulo_video {
+        font-size: 1.5rem;
     }
 
     .ponentes__nombre{
