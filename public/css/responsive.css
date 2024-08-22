@@ -158,11 +158,18 @@
         margin-top: 2rem;
     }
 
+    .boton_registro {
+        min-width: 20rem;
+    }
+
     .botoncabecera{
         width: 90vw;
         font-size: 1.5rem;
     }
 
+    .b-imagenlogopie{
+        margin-bottom: 10px;
+    }
     .imagenlogopie{
         width: 70%;
     }
