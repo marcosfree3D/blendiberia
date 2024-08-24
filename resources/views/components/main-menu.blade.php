@@ -11,10 +11,10 @@
     <div class="textobarra">
         <ul class="links">
             <li><a href="/">Inicio</a></li>
-            <li><a href="/ponencias/9">Ponencias</a></li>
+            <!--<li><a href="/ponencias/9">Ponencias</a></li>
             <li><a href="/talleres/7">Talleres</a></li>
-            <!--<li><a href="/videos">Vídeos</a></li> -->
-            <li><a href="/merchandise">Merchandise</a></li>
+            <li><a href="/videos">Vídeos</a></li>
+            <li><a href="/merchandise">Merchandise</a></li> -->
             <li><a href="/registro">Regístrate</a></li>
            <!-- <li><a href="/faq">FAQ</a></li>
             <li><a href="/contacto">Contacto</a></li> -->
@@ -43,9 +43,9 @@
     <div class="textobarra">
         <ul class="links-movil">
             <li><a href="/">Inicio</a></li>
-            <li><a href="/ponencias/9">Ponencias</a></li>
+            <!--<li><a href="/ponencias/9">Ponencias</a></li>
             <li><a href="/talleres/7">Talleres</a></li>
-            <!--<li><a href="/videos">Vídeos</a></li> -->
+            <li><a href="/videos">Vídeos</a></li> -->
             <li><a href="/merchandise">Merchandise</a></li>
             <li><a href="/registro">Regístrate</a></li>
            <!-- <li><a href="/faq">FAQ</a></li>

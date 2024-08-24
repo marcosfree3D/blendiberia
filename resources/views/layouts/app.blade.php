@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="{{ asset('css/blendiberia.css') }}">
         <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
         <link rel="stylesheet" href="{{ asset('css/registro.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/ponencias.css') }}">
         <link rel="stylesheet" href="{{ asset('css/dark.css') }}">
         <link rel="stylesheet" href="{{ asset('css/style.css') }}">
         <link rel="stylesheet" href="{{ asset('css/talleres.css') }}">

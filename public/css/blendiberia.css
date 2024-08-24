@@ -264,7 +264,7 @@ TIPOS Y POSICIONES DE TEXTO
 
 }
 .imagenlogopie{
-    width: 50%;
+    width: 35%;
 }
 
 .logobarra{
@@ -344,7 +344,9 @@ TIPOS Y POSICIONES DE TEXTO
     margin-left: -5%;
     width: 100%;
 }
-
+.textolegal__contenedor{
+    margin-top: 3px;
+}
 .textolegal{
     margin: 0;
     text-align: right;
@@ -623,10 +625,11 @@ POLITICA DE PUBLICIDAD
     width: 100%;
     text-align: left;
     position: fixed;
-    height: 50px;
+    height: 60px;
     bottom: 0;
     left:0;
-    webkit-backface-visibility: hidden;
+    padding-left: 3px;
+    padding-bottom: 3px;
     background-color: var(--azul_oscuro);
 }
 .b-imagenlogopie{

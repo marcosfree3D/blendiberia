@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="{{ asset('css/blendiberia.css') }}">
     <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
     <link rel="stylesheet" href="{{ asset('css/registro.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/ponencias.css') }}">
 
 
     <link rel="stylesheet" href="{{ asset('css/talleres.css') }}">
@@ -26,7 +27,7 @@
         <div class="b-imagenlogopie">
             <img class="imagenlogopie" src={{ asset('/images/svg/logo.svg') }} alt="Logo Blendiberia" >
         </div>
-        <div>
+        <div class="textolegal__contenedor">
             <p class="textolegal"> Aviso legal </p>
             <p class="textolegal"> <a href="/politica-privacidad">Politica de privacidad</a> </p>
             <p class="textolegal"> Politica de cookies </p>
