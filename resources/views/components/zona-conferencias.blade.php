@@ -16,6 +16,9 @@
                 <a href="/ponencia/{{$conferencia->url}}">
                     <img src={{$conferencia->imagen}} alt="imagen conferencia" class="imagen_conferencia">
                     <h3 class="titulo-conferencia">{{$conferencia->titulo}}</h3>
+                    <h2 class="conferencias__programa">FECHA: {{ \Carbon\Carbon::parse($conferencia->fecha)->format('d/m') }}</h2>
+                    <h2 class="conferencias__programa">HORA: {{$conferencia->hora}}</h2>
+                    <h2 class="conferencias__programa"> SALA: {{$conferencia->sala}} </h2>
                     <div class="conferencia__descripcion">{{$conferencia->descripcion_reducida}}</div>
                 </a>
             </div>

@@ -263,6 +263,12 @@ TIPOS Y POSICIONES DE TEXTO
     width: 100%;
 
 }
+.conferencias__programa {
+    color: var(--naranja);
+    font-family: "Roboto-Light";
+    font-size: 1.2rem;
+    margin-left: 20px; ;
+}
 .imagenlogopie{
     width: 35%;
 }
