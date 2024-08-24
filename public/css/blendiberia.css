@@ -663,6 +663,48 @@ POLITICA DE PUBLICIDAD
 
 }
 
+/*--------------------------------
+CLASES PAGINA DATOS PONENTE
+------------------------------- */
+.ponentes__redes-sociales{
+    color: var(--naranja);
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+}
+
+.ponentes__datosponente--foto-perfil{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    max-width: 12rem;
+}
+.ponentes__datosponente--cargo{
+    font-family: "Roboto-LightItalic";
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ponentes__datosponente--cv{
+    font-family: "Roboto-Regular";
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.ponentes_datosponente--contenedor-links{
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto-Regular";
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    align-items: center;
+
+}
+.ponentes_datosponente--logoredsocial{
+    width: 5rem;
+    height: auto;
+    margin-right: 3rem;
+}
+
 
 /*--------------------------------
 CLASES INTERNAS CONTENEDORES GRID
