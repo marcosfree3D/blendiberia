@@ -26,9 +26,9 @@
                 </div>
             </div>
             <div class="ponencia__resumen--container-reserva">
-                <div class="ponencia__resumen--boton-reserva">
+                <a href="/registro/"><div class="ponencia__resumen--boton-reserva">
                     Reserva aquí tu entrada
-                </div>
+                </div></a>
             </div>
         </section>
     @endforeach

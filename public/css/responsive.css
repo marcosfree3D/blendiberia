@@ -218,6 +218,37 @@
         top: -4rem !important;
         left: 1rem !important;
     }
+
+    .taller__resumen--titulo{
+        left: 1rem !important;
+        margin-right: 2rem;
+        top: -4rem !important;
+    }
+    .taller__resumen--descripcion {
+        left: 1rem !important;
+        margin-right: 2rem;
+        top: -2rem !important;
+    }
+    .taller__resumen--boton-reserva {
+        min-width: 18rem !important;
+        font-size: 1.5rem !important;
+    }
+    .taller__perfil--imagen  {
+        width: 5rem !important;
+        top: -6rem !important;
+    }
+    .taller__perfil--nombre-ponente {
+        top: -6rem !important;
+        left: 1rem !important;
+    }
+    .taller__perfil--skin-ponente{
+        top: -6rem !important;
+        left: 1rem !important;
+    }
+    .taller__resumen--fecha {
+        top: -4rem !important;
+        left: 1rem !important;
+    }
 }
 
 @media(max-width:450px){

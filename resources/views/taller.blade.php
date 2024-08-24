@@ -36,19 +36,11 @@
                         <div class="taller__resumen--precio-entrada">
                             {{$tall->precio}}€
                         </div>
-                        <div class="taller__resumen--boton-reserva">
+                        <a href="/registro/"><div class="taller__resumen--boton-reserva">
                             Compra aquí tu entrada
-                        </div>
+                        </div></a>
                     </div>
                 @endif
-
-
-
-
-
-
-
-
             </section>
         @endforeach
 
