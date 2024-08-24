@@ -2,13 +2,16 @@
 
    <h1>Ponencia concreta extendida</h1>
     <div>
-        {{$ponencia->titulo}}
-        {{$ponencia->imagen}}
-        {{$ponencia->ponente}}
-        {{$ponencia->perfil}}
-        {{$ponencia->descripcion}}
-        {{$ponencia->fecha}}
-        {{$ponencia->hora}}
-        {{$ponencia->sala}}
+        @foreach ($ponencia as $ponen )
+            {{$ponen->titulo}}
+            {{$ponen->imagen}}
+            {{$ponen->ponente}}
+            {{$ponen->perfil}}
+            {{$ponen->descripcion}}
+            {{$ponen->fecha}}
+            {{$ponen->hora}}
+            {{$ponen->sala}}
+        @endforeach
+
     </div>
 </x-plantilla-base>

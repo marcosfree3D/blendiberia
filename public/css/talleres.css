@@ -139,3 +139,86 @@
 .adv-talleres{
     font-size: 1.2rem;
 }
+
+/* --------------------------
+   PAGINA TALLER
+   --------------------------*/
+.taller__container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.taller__imagen--container{
+    position: relative;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 0 auto;
+    width: 100%;
+}
+.taller__perfil--imagen{
+    position: relative;
+    top: -9rem;
+    left: 2rem;
+    width: 10rem;
+    border-radius: 50%;
+
+}
+.taller__perfil--nombre-ponente {
+    position: relative;
+    top:-8rem;
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+    left: 3rem;
+}
+.taller__perfil--skin-ponente{
+    position: relative;
+    top:-8rem;
+    left: 3rem;
+    font-family: "Roboto_LightItalic";
+    font-size: 1rem;
+}
+.taller__resumen--fecha {
+    position: relative;
+    top:-6rem;
+    left: 3rem;
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+}
+.taller__resumen--titulo{
+    position: relative;
+    top:-6rem;
+    left: 3rem;
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+}
+.taller__resumen--descripcion{
+    position: relative;
+    top:-4rem;
+    left: 3rem;
+    font-family: "Roboto-Regular";
+    font-size: 1.2rem;
+}
+.taller__resumen--container-reserva{
+    display: flex;
+    justify-content: flex-end;
+}
+.taller__resumen--boton-reserva{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-family: "Roboto-Regular";
+    font-size: 2rem;
+    background-color: var(--naranja);
+    border-radius: 2rem;
+    min-width: 25rem;
+    max-width: 400px;
+    height: 3rem;
+}
+.taller__resumen--precio-entrada{
+    position: relative;
+    left: 3rem;
+    margin: 0 auto;
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+}

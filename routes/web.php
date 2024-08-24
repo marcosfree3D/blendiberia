@@ -45,18 +45,19 @@ Route::get('talleres/{dia}/{titulo}', function($dia, $titulo){
 Route::get('/ponencia/{titulo}', function($titulo) {
     $ponencia = DB::table('conferencias')->where('url',$titulo);
     $ponencia = $ponencia->get();
-    return view('ponencia', compact($ponencia));
+    return view('ponencia')->with('ponencia',$ponencia);
 });
 Route::get('/taller/{titulo}', function($titulo) {
     $taller = DB::table('talleres')->where('url',$titulo);
+    $fecha = $taller['fecha'];
     $taller = $taller->get();
-    return view('taller', compact($taller));
+    return view('taller')->with('taller',$taller);
 });
 
 Route::get('/ponente/{nombre}', function($nombre) {
     $ponente = DB::table('ponentes')->where('url',$nombre);
     $ponente = $ponente->get();
-    return view('ponente', )->with('ponente',$ponente);
+    return view('ponente')->with('ponente',$ponente);
 
 });
 
