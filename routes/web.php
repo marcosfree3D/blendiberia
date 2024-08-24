@@ -49,7 +49,6 @@ Route::get('/ponencia/{titulo}', function($titulo) {
 });
 Route::get('/taller/{titulo}', function($titulo) {
     $taller = DB::table('talleres')->where('url',$titulo);
-    $fecha = $taller['fecha'];
     $taller = $taller->get();
     return view('taller')->with('taller',$taller);
 });
