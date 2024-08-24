@@ -249,6 +249,10 @@
         top: -4rem !important;
         left: 1rem !important;
     }
+    .ponentes_datosponente--contenedor-links{
+        font-size: 0.7rem;
+    }
+
 }
 
 @media(max-width:450px){
