@@ -12,7 +12,7 @@ class HomeController extends Controller
     {
         $conferencias = DB::select('select * from conferencias');
         $talleres = DB::select('select * from talleres');
-        $ponentes = DB::select('select * from ponentes order by "orden"') ;
+        $ponentes = DB::select('select * from ponentes order by orden') ;
         /*$ponentes = DB::select('select * from ponentes '); */
 
 
