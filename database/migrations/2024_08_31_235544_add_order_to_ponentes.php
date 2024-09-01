@@ -12,7 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         Schema::table('ponentes', function (Blueprint $table) {
-            $table->integer('order');
+            $table->integer('orden');
         });
     }
 
