@@ -1,7 +1,7 @@
 <div class="b-header">
     <div class="b-header2">
         <img src="/images/svg/texto_logo_home.svg" alt="Blendiberia 2024">
-         <h2 class="header2__fecha" id ="header2__fecha"> 9 - 10 NOV 2024 SITGES - (BARCELONA) </h2>
+         <h2 class="header2__fecha" id ="header2__fecha">  7 y 8 - 9 y 10 NOV 2024 SITGES - (BARCELONA) </h2>
 
     </div>
 
