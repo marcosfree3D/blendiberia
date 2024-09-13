@@ -19,6 +19,7 @@
                     <h2 class="conferencias__programa">FECHA: {{ \Carbon\Carbon::parse($conferencia->fecha)->format('d/m') }}</h2>
                     <h2 class="conferencias__programa">HORA: {{$conferencia->hora}}</h2>
                     <h2 class="conferencias__programa"> SALA: {{$conferencia->sala}} </h2>
+                    <h3 class="conferencias__programa">PONENTE: {{$conferencia->ponente}}</h3>
                     <div class="conferencia__descripcion">{{$conferencia->descripcion_reducida}}</div>
                 </a>
             </div>
