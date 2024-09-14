@@ -19,7 +19,7 @@
                    FECHA: {{ \Carbon\Carbon::parse($pon->fecha)->format('d/m') }}
                 </div>
                 <div class="ponencia__resumen--titulo">
-                    {{$pon->hora}} {{$pon->titulo}} {{$pon->sala}}
+                    {{$pon->hora}} : {{$pon->titulo}} {{$pon->sala}}
                 </div>
                 <div class="ponencia__resumen--descripcion">
                     {{$pon->descripcion}}
