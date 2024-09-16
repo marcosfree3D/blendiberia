@@ -1,13 +1,13 @@
 /* --------------------------
    PAGINA ponencia
    --------------------------*/
-   .ponencia__container{
+.ponencia__container {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.ponencia__imagen--container{
+.ponencia__imagen--container {
     position: relative;
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -15,60 +15,66 @@
     width: 100%;
 }
 
-.ponencia__imagen--container img{
+.ponencia__imagen--container img {
     width: 100%;
     height: auto;
     display: block;
 }
 
-.ponencia__perfil--imagen{
+.ponencia__perfil--imagen {
     position: relative;
     top: -9rem;
     left: 2rem;
     width: 10rem;
     border-radius: 50%;
-
 }
 .ponencia__perfil--nombre-ponente {
     position: relative;
-    top:-8rem;
+    top: -8rem;
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
     left: 3rem;
 }
-.ponencia__perfil--skin-ponente{
+.ponencia__perfil--skin-ponente {
     position: relative;
-    top:-8rem;
+    top: -8rem;
     left: 3rem;
     font-family: "Roboto_LightItalic";
     font-size: 1rem;
 }
 .ponencia__resumen--fecha {
     position: relative;
-    top:-6rem;
+    top: -6rem;
     left: 3rem;
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
 }
-.ponencia__resumen--titulo{
+.ponencia__resumen--titulo {
     position: relative;
-    top:-6rem;
+    top: -6rem;
     left: 3rem;
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
 }
-.ponencia__resumen--descripcion{
+.ponencia__resumen--sala {
     position: relative;
-    top:-4rem;
+    top: -6rem;
+    left: 3rem;
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+}
+.ponencia__resumen--descripcion {
+    position: relative;
+    top: -4rem;
     left: 3rem;
     font-family: "Roboto-Regular";
     font-size: 1.2rem;
 }
-.ponencia__resumen--container-reserva{
+.ponencia__resumen--container-reserva {
     display: flex;
     justify-content: flex-end;
 }
-.ponencia__resumen--boton-reserva{
+.ponencia__resumen--boton-reserva {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -80,7 +86,7 @@
     max-width: 400px;
     height: 3rem;
 }
-.ponencia__resumen--precio-entrada{
+.ponencia__resumen--precio-entrada {
     position: relative;
     left: 3rem;
     margin: 0 auto;
