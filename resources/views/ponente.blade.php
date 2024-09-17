@@ -8,6 +8,17 @@
             <div class="ponentes__datosponente--cargo">{{$ponent->cargo}}</div>
             <div class="ponentes__datosponente--cv">{{$ponent->cv}}</div>
 
+            @if(!is_null($ponent->yt_presentacion))
+                <div class="ponentes__video-presentacion">
+                    <iframe width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/{{ $ponent->yt_presentacion }}"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            @endif
             <h2 class="ponentes__redes-sociales">Contactar:</h2>
             @if(!is_null($ponent->web ))
                 <div class="ponentes_datosponente--contenedor-links">
