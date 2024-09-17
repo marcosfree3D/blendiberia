@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5T36SJT3R"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-X5T36SJT3R');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1 ,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -16,6 +25,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/talleres.css') }}">
 </head>
+
 <body>
 
     <x-main-menu/>
@@ -39,4 +49,3 @@
     {{--<script src ={{ asset('/javascript/slide.js')}}> --}}
 </body>
 </html>
-
