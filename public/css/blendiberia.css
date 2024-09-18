@@ -555,17 +555,6 @@ POLITICA DE PUBLICIDAD
     width: 100%;
     /*border: 1px solid black;*/
 }
-.b-calendario-localizacion-qr {
-    width: 18%;
-    max-width: 18%;
-    margin-top: 2rem;
-}
-.b-calendario-localizacion-qr__texto {
-    font-family: "Roboto-Regular";
-    font-size: 1.2rem;
-    margin-top: 1rem;
-    /*font-size: calc(100% / var(--qr-image-width, 100) * 100);*/
-}
 
 .b-programa-dias {
     display: grid;
