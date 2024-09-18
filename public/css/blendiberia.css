@@ -1,13 +1,12 @@
 :root {
-    --azul_claro: #373AF7;
-    --azul_oscuro: #011C63;
+    --azul_claro: #373af7;
+    --azul_oscuro: #011c63;
     --marron_oscuro: #383431;
     --blanco: #ffffff;
     --naranja: #ff7800;
     --gris_claro: #777777;
     --gris_oscuro: #333;
 }
-
 
 body {
     font-family: "roboto-light", sans-serif;
@@ -18,33 +17,31 @@ body {
     padding-left: 5rem;
     padding-right: 5rem;
     color: var(--blanco);
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 1440px;
 }
 /*-------------------------
 TIPOS Y POSICIONES DE TEXTO
 -------------------------*/
-.textocursiva{
-    font-family: 'Roboto-LightItalic', sans-serif;
+.textocursiva {
+    font-family: "Roboto-LightItalic", sans-serif;
 }
 
-.alinearderecha{
+.alinearderecha {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
 }
 
-
 /*BARRA DE MENUS*/
-.hamburger{
+.hamburger {
     display: none;
 }
-.close{
+.close {
     display: none;
 }
 
-
-.barramenu{
+.barramenu {
     background-color: var(--azul_oscuro);
     position: fixed;
     top: 0;
@@ -58,7 +55,7 @@ TIPOS Y POSICIONES DE TEXTO
     align-self: center;
     justify-content: flex-start;
 }
-.barra-menu-movil{
+.barra-menu-movil {
     position: absolute;
     display: none;
     width: 100%;
@@ -67,7 +64,7 @@ TIPOS Y POSICIONES DE TEXTO
     background-color: var(--azul_oscuro);
 }
 
-.menu-movil{
+.menu-movil {
     display: none;
     background-color: var(--azul_oscuro);
     position: fixed;
@@ -92,51 +89,50 @@ TIPOS Y POSICIONES DE TEXTO
     font-size: 15px;
 }
 .barramenu a.active {
-  background-color: var(--naranja);
-  color: white;
+    background-color: var(--naranja);
+    color: white;
 }
 
 .barramenu a:hover {
-  background-color: var(--azul_claro);
-  color: var(--blanco);
+    background-color: var(--azul_claro);
+    color: var(--blanco);
 }
 
-.barramenu .links{
+.barramenu .links {
     display: flex;
     align-items: center;
     align-self: center;
 }
-.links-movil{
+.links-movil {
     display: none;
 }
-.social-movil{
+.social-movil {
     display: none;
 }
 
-.barramenu .links-login{
+.barramenu .links-login {
     display: flex;
     align-items: flex-end;
     align-self: center;
 }
-.barramenu .social{
+.barramenu .social {
     display: flex;
     flex-direction: row;
 }
-.social_svg{
+.social_svg {
     width: 25px;
     height: 25px;
 }
-.dark{
+.dark {
     padding-left: 2rem;
     width: auto;
-
 }
 
-.shopping{
+.shopping {
     padding-left: 1rem;
     width: auto;
 }
-.textobarra{
+.textobarra {
     display: flex;
     width: 100%;
     margin-right: 10px;
@@ -145,30 +141,28 @@ TIPOS Y POSICIONES DE TEXTO
     justify-content: space-between;
 }
 
-.hamburger{
-        display: none;
-        position: fixed;
-        top: 5px;
-        right: 15px;
-        width: 35px;
-        height: 35px;
-        z-index: 9999;
-    }
-    .cerrar{
-        display: none;
-        position: fixed;
-        right: 15px;
-        top: 5px;
-        width: 35px;
-        height: 35px;
-        z-index: 9999;
-    }
-
+.hamburger {
+    display: none;
+    position: fixed;
+    top: 5px;
+    right: 15px;
+    width: 35px;
+    height: 35px;
+    z-index: 9999;
+}
+.cerrar {
+    display: none;
+    position: fixed;
+    right: 15px;
+    top: 5px;
+    width: 35px;
+    height: 35px;
+    z-index: 9999;
+}
 
 /* CLASES GENERALES PAGINA */
 
-
-.botoncabecera{
+.botoncabecera {
     border-radius: 3.2rem;
     cursor: pointer;
     border: 1px solid var(--blanco);
@@ -180,12 +174,12 @@ TIPOS Y POSICIONES DE TEXTO
     font-size: min(1.8vw, 3rem);
     margin-top: 4rem;
 }
-.calendario-svg{
+.calendario-svg {
     margin: 3px;
     margin-right: 17px;
 }
 .conferencia,
-.taller{
+.taller {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,46 +187,43 @@ TIPOS Y POSICIONES DE TEXTO
     width: 30%;
 }
 .conferencia:hover,
-.taller:hover{
+.taller:hover {
     cursor: pointer;
     border: 3px var(--blanco) solid;
 }
-.contenedor{
+.contenedor {
     margin-left: 3rem;
     margin-right: 3rem;
 }
-.calendario-blanco{
+.calendario-blanco {
     width: 100%;
 }
-.direccion-sala{
+.direccion-sala {
     font-size: 3rem;
     display: flex;
     flex-direction: column;
     gap: 5px;
-   ;
 }
-.direccion-postal{
+.direccion-postal {
     font-size: 1.5rem;
     font-family: "Roboto-Regular";
     margin-top: -10px;
     margin-left: 17px;
-
 }
-.nombre-hotel{
+.nombre-hotel {
     font-size: 2rem;
     font-family: "Roboto-Regular";
     margin-top: 12px;
     margin-left: 17px;
-
 }
 /* PONENTES - PONENCIAS - TALLERES */
-.cuerpo__programa-tus-dias{
+.cuerpo__programa-tus-dias {
     font-size: 1.5rem;
 }
-.titulo-texto{
+.titulo-texto {
     padding-top: 2rem;
     font-size: 3rem;
-    top:0;
+    top: 0;
 }
 
 .header2__fecha {
@@ -242,55 +233,52 @@ TIPOS Y POSICIONES DE TEXTO
     margin-top: 1rem;
     font-size: min(max(1rem, 1.45vw), 3rem);
     max-width: fit-content;
-    word-break:break-all;
-    container-name: sidebar
-  }s
-  .nombre-hotel{
+    word-break: break-all;
+    container-name: sidebar;
+}
+s .nombre-hotel {
     margin-top: 26px;
     margin-left: 17px;
     margin-bottom: 0px;
-    font-size: 1.5rem;;
-  }
+    font-size: 1.5rem;
+}
 
-  @container sidebar (min-width: 300px) {
+@container sidebar (min-width: 300px) {
     .fechalogo {
-      font-size: 2em;
+        font-size: 2em;
     }
-  }
+}
 
-
-.imagen_conferencia{
+.imagen_conferencia {
     width: 100%;
-
 }
 .conferencias__programa {
     color: var(--naranja);
     font-family: "Roboto-Light";
     font-size: 1.2rem;
-    margin-left: 20px; ;
+    margin-left: 20px;
 }
-.imagenlogopie{
+.imagenlogopie {
     width: 35%;
 }
 
-.logobarra{
+.logobarra {
     position: fixed;
     max-width: 35px;
     top: 8px;
     left: 65px;
     z-index: 1003;
-
 }
-.logo-blendiberia-top{
+.logo-blendiberia-top {
     width: 90%;
     max-width: 504px;
     margin-left: 22%;
 }
-.logodark{
+.logodark {
     padding-top: 5px;
 }
-.linea_naranja{
-    color:var(--naranja);
+.linea_naranja {
+    color: var(--naranja);
     background-color: var(--naranja);
     border-radius: 3px;
 
@@ -299,9 +287,8 @@ TIPOS Y POSICIONES DE TEXTO
     margin-top: 22px;
     margin-left: 0px;
     border: 0;
-
 }
-.linea_slide{
+.linea_slide {
     display: flex;
     flex-direction: row;
     margin-bottom: 15px;
@@ -316,7 +303,7 @@ TIPOS Y POSICIONES DE TEXTO
     padding-left: 20px;
     padding-right: 20px;
 }
-.boton_slide{
+.boton_slide {
     width: 30px;
     height: 30px;
     margin: 10px;
@@ -335,25 +322,25 @@ TIPOS Y POSICIONES DE TEXTO
     margin: 10px;
     transition: all 300ms ease-in-out;
 }
-.boton_slide:first-of-type{
+.boton_slide:first-of-type {
     margin-left: 30px;
 }
 
-.boton_slide:hover{
+.boton_slide:hover {
     width: 40px;
     height: 40px;
 }
 
-.textologopie{
+.textologopie {
     padding-top: 2%;
     float: left;
     margin-left: -5%;
     width: 100%;
 }
-.textolegal__contenedor{
+.textolegal__contenedor {
     margin-top: 3px;
 }
-.textolegal{
+.textolegal {
     margin: 0;
     text-align: right;
     padding-right: 50px;
@@ -361,102 +348,98 @@ TIPOS Y POSICIONES DE TEXTO
     color: var(--blanco);
     font-size: 12px;
 }
-.textolegal a:link{
+.textolegal a:link {
     /* unvisited link */
     text-decoration: none;
-    color: var(--blanco)
+    color: var(--blanco);
 }
-  /* visited link */
+/* visited link */
 .textolegal a:visited {
     color: var(--blanco);
 }
 
-  /* mouse over link */
+/* mouse over link */
 .textolegal a:hover {
-    color:var(--naranja);
- }
- .pol-pri{
+    color: var(--naranja);
+}
+.pol-pri {
     display: flex;
     flex-direction: column;
     color: var(--blanco);
- }
- .pol-pri a:link{
+}
+.pol-pri a:link {
     /* unvisited link */
     text-decoration: none;
-    color: var(--blanco)
+    color: var(--blanco);
 }
-  /* visited link */
+/* visited link */
 .pol-pri a:visited {
     color: var(--blanco);
 }
 
-  /* mouse over link */
+/* mouse over link */
 .pol-pri a:hover {
-    color:var(--naranja);
- }
+    color: var(--naranja);
+}
 
-.textologo{
+.textologo {
     padding-top: 60px;
 }
-.textologopie{
+.textologopie {
     text-align: center;
 }
-.textomenu{
+.textomenu {
     margin-top: 3px;
 }
 
-.ficha_ponente:hover{
+.ficha_ponente:hover {
     transition: all 300ms ease-in-out;
-    transform: translateY(-.5rem);
+    transform: translateY(-0.5rem);
 }
 
-.ponentes__nombre{
+.ponentes__nombre {
     font-size: 1.5rem;
     font-family: "Roboto-Regular";
     color: var(--blanco);
 }
-.ponentes__cargo{
+.ponentes__cargo {
     font-size: 1.5rem;
     font-family: "Roboto-LightItalic";
     color: var(--blanco);
 }
-@media (max-width: 1324px){
-    .ponentes__nombre{
+@media (max-width: 1324px) {
+    .ponentes__nombre {
         font-size: 1.5rem;
     }
-    .ponentes__cargo{
+    .ponentes__cargo {
         font-size: 1rem;
     }
-
 }
-@media (max-width: 1062px){
-    .ponentes__nombre{
+@media (max-width: 1062px) {
+    .ponentes__nombre {
         font-size: 1rem;
     }
-    .ponentes__cargo{
+    .ponentes__cargo {
         font-size: 0.7rem;
     }
-
 }
-@media (max-width: 802px){
-    .ponentes__nombre{
+@media (max-width: 802px) {
+    .ponentes__nombre {
         font-size: 0.7rem;
     }
-    .ponentes__cargo{
+    .ponentes__cargo {
         font-size: 0.5rem;
     }
-
 }
 
-
-.texto-naranja{
+.texto-naranja {
     color: var(--naranja);
     font-size: 1.5rem;
     font-family: "Roboto-Regular", sans-serif;
 }
 .titulo-conferencia,
 .titulo-taller,
-.titulo_video{
+.titulo_video {
     color: var(--blanco);
     font-family: "Roboto-Regular";
     font-size: 2rem;
@@ -468,7 +451,7 @@ TIPOS Y POSICIONES DE TEXTO
 /*---------------------
 POLITICA DE PUBLICIDAD
 ----------------------*/
-.cuerpo__politica{
+.cuerpo__politica {
     font-size: 1.5rem;
 }
 
@@ -476,12 +459,12 @@ POLITICA DE PUBLICIDAD
    CONTENEDORES GRID
  ----------------------*/
 
-.b-header{
+.b-header {
     display: flex;
     width: 100%;
     /*border: 1px solid black; */
 }
-.b-header2{
+.b-header2 {
     /*display: flex;
     flex-direction: column;
     align-items: center;*/
@@ -491,7 +474,7 @@ POLITICA DE PUBLICIDAD
     margin-top: 2rem;
     /*border: 1px solid black;*/
 }
-.b-entradas{
+.b-entradas {
     display: grid;
     grid-template-columns: auto;
     width: 100%;
@@ -499,59 +482,58 @@ POLITICA DE PUBLICIDAD
     /*border: 1px solid black;*/
 }
 
-
-.b-talento{
+.b-talento {
     display: grid;
     font-size: min(max(2rem, 5vw), 50px);
-    font-family: 'Roboto-LightItalic', sans-serif;
+    font-family: "Roboto-LightItalic", sans-serif;
     grid-template-columns: auto;
     width: 100%;
     margin: 1rem 0;
     text-align: center;
 }
-.b-calendario{
+.b-calendario {
     display: grid;
     grid-template-columns: 30% auto 40%;
     width: 100%;
     /*border: 1px solid black; */
 }
 
-.b-calendario-fechas{
+.b-calendario-fechas {
     display: grid;
     grid-template-columns: auto;
     width: 100%;
     /*border: 1px solid black;*/
 }
-.b-calendario-fechas-programa{
+.b-calendario-fechas-programa {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 100%;
     gap: 1rem;
     margin-bottom: 1rem;
     /*border: 1px solid black;*/
 }
-.b-calendario-fechas-talleres{
+.b-calendario-fechas-talleres {
     display: grid;
     margin-top: 1rem;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     width: 100%;
     /*border: 1px solid black;*/
 }
-.b-calendario-localizacion{
+.b-calendario-localizacion {
     display: grid;
     grid-template-columns: auto;
     width: 100%;
     /*border: 1px solid black;*/
 }
-.b-calendario-localizacion-fechas{
+.b-calendario-localizacion-fechas {
     display: grid;
     grid-template-columns: 20% auto;
     width: 100%;
 
     /*border: 1px solid black;*/
 }
-.b-calendario-localizacion_fechas__texto{
+.b-calendario-localizacion_fechas__texto {
     position: relative;
     top: -10px;
 
@@ -560,37 +542,47 @@ POLITICA DE PUBLICIDAD
     align-content: center;
     margin-left: 15px;
 }
-.b-calendario-localizacion-sitio{
+.b-calendario-localizacion-sitio {
     display: grid;
     grid-template-columns: 20% auto;
     width: 100%;
     /*border: 1px solid black; */
 }
-.b-calendario-localizacion-mapa{
+.b-calendario-localizacion-mapa {
     display: grid;
     grid-template-columns: 20% 20% auto;
     gap: 1rem;
     width: 100%;
     /*border: 1px solid black;*/
 }
+.b-calendario-localizacion-qr {
+    width: 18%;
+    max-width: 25%;
+    margin-top: 2rem;
+}
+.b-calendario-localizacion-qr__texto {
+    font-family: "Roboto-Regular";
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    /*font-size: calc(100% / var(--qr-image-width, 100) * 100);*/
+}
 
-.b-programa-dias{
+.b-programa-dias {
     display: grid;
     grid-template-columns: auto;
     width: 100%;
     text-align: left;
     /*border: 1px solid black; */
 }
-.b-titulos{
+.b-titulos {
     display: grid;
     grid-template-columns: auto;
     width: 100%;
     text-align: left;
-    font-family: 'roboto-regular', sans-serif;
+    font-family: "roboto-regular", sans-serif;
     color: var(--naranja);
-
 }
-.b-ponentes{
+.b-ponentes {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
@@ -601,7 +593,6 @@ POLITICA DE PUBLICIDAD
     font-family: "Roboto-Regular";
     color: var(--naranja);
     font-size: 1.2rem;
-
 }
 .b-conferencias,
 .b-talleres,
@@ -613,11 +604,9 @@ POLITICA DE PUBLICIDAD
     flex-wrap: wrap;
     flex-basis: 30%;
     align-content: space-between;
-
 }
 
-
-.b-entradas{
+.b-entradas {
     display: grid;
     grid-template-columns: auto;
     width: 100%;
@@ -625,107 +614,107 @@ POLITICA DE PUBLICIDAD
     /*border: 1px solid black; */
 }
 
-.b-pie-pagina{
+.b-pie-pagina {
     display: grid;
-    grid-template-columns:40% 20% 40%;
+    grid-template-columns: 40% 20% 40%;
     width: 100%;
     text-align: left;
     position: fixed;
     height: 60px;
     bottom: 0;
-    left:0;
+    left: 0;
     padding-left: 3px;
     padding-bottom: 3px;
     background-color: var(--azul_oscuro);
 }
-.b-imagenlogopie{
+.b-imagenlogopie {
     display: flex;
     justify-content: center;
 }
 
-.boton_registro_naranja{
+.boton_registro_naranja {
     display: flex;
     justify-content: center;
     margin-top: 2rem;
 }
 
-.boton_registro{
-    display:flex;
+.boton_registro {
+    display: flex;
     justify-content: center;
     align-items: baseline;
     font-family: "Roboto-Regular";
     font-size: 2rem;
     margin: 0 auto;
-    background-color:  var(--naranja);
+    background-color: var(--naranja);
     border-radius: 2rem;
     min-width: 25rem;
     height: 3rem;
-
 }
 
 /*--------------------------------
 CLASES PAGINA DATOS PONENTE
 ------------------------------- */
-.ponentes__redes-sociales{
+.ponentes__redes-sociales {
     color: var(--naranja);
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
 }
 
-.ponentes__datosponente--foto-perfil{
+.ponentes__datosponente--foto-perfil {
     margin-top: 1rem;
     margin-bottom: 2rem;
     border-radius: 50%;
     filter: grayscale(100%);
     max-width: 12rem;
 }
-.ponentes__datosponente--cargo{
+.ponentes__datosponente--cargo {
     font-family: "Roboto-LightItalic";
     font-size: 1rem;
     margin-bottom: 2rem;
 }
 
-.ponentes__datosponente--cv{
+.ponentes__datosponente--cv {
     font-family: "Roboto-Regular";
     font-size: 1.2rem;
     margin-bottom: 2rem;
 }
-.ponentes_datosponente--contenedor-links{
+.ponentes_datosponente--contenedor-links {
     display: flex;
     flex-direction: row;
     font-family: "Roboto-Regular";
     font-size: 1rem;
     margin-bottom: 1rem;
     align-items: center;
-
 }
-.ponentes_datosponente--logoredsocial{
+.ponentes_datosponente--logoredsocial {
     width: 50px;
     height: 50px;
     object-fit: contain;
     margin-right: 3rem;
 }
 
-
 /*--------------------------------
 CLASES INTERNAS CONTENEDORES GRID
 ------------------------------- */
-.b-calendario-localizacion-fechas-texto{
+.b-calendario-localizacion-fechas-texto {
     margin-left: 1rem;
 }
 
 @font-face {
-font-family: 'Roboto-Light';
-src:local('Roboto-Light'),
-    url('../fonts/Roboto-Light.ttf') format('truetype');
+    font-family: "Roboto-Light";
+    src:
+        local("Roboto-Light"),
+        url("../fonts/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
-    font-family: 'Roboto-LightItalic';
-    src:local('Roboto-LightItalic'),
-        url('../fonts/Roboto-LightItalic.ttf') format('truetype');
-    }
+    font-family: "Roboto-LightItalic";
+    src:
+        local("Roboto-LightItalic"),
+        url("../fonts/Roboto-LightItalic.ttf") format("truetype");
+}
 @font-face {
-    font-family: 'Roboto-Regular';
-    src:local('Roboto-Regular'),
-        url('../fonts/Roboto-Regular.ttf') format('truetype');
-    }
+    font-family: "Roboto-Regular";
+    src:
+        local("Roboto-Regular"),
+        url("../fonts/Roboto-Regular.ttf") format("truetype");
+}

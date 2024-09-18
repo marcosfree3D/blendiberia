@@ -31,6 +31,7 @@
             <img src="/images/svg/mapa.svg" alt="imagen mapa svg">
             <img src="/images/svg/alojamiento.svg" alt="imagen alojamiento svg">
         </div>
+
     </div>
 </div>
 

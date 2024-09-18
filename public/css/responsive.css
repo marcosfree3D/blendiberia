@@ -33,6 +33,18 @@
         display: none;
     }
 
+    .b-calendario-localizacion-qr {
+        width: 80%;
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+    .b-calendario-localizacion-qr__texto {
+        font-family: "Roboto-Regular";
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        /*font-size: calc(100% / var(--qr-image-width, 100) * 100);*/
+    }
+
     .menu-movil {
         position: absolute;
         display: none;

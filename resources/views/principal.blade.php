@@ -2,6 +2,7 @@
 
     <x-cabecera-principal/>
     <x-calendario-localizacion/>
+    <x-qr/>
     <x-zona-ponentes :ponentes="$ponentes"/>
     <x-zona-conferencias :conferencias="$conferencias"/>
     <x-zona-talleres :talleres="$talleres"/>
@@ -11,4 +12,3 @@
     {{--<x-zona-videos/>--}}
 
 </x-plantilla-base>
-
