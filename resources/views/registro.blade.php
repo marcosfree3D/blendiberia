@@ -50,6 +50,6 @@
 
     </form>
     <div class="proteccion-datos">
-
+        <x-qr/>
     </div>
 </x-plantilla-base>
