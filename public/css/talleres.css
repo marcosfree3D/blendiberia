@@ -1,10 +1,10 @@
-.b-contenedor-eventos{
+.b-contenedor-eventos {
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
     /*border: 2px dotted var(--blanco); */
 }
-.b-contenedor-eventos__calendarios{
+.b-contenedor-eventos__calendarios {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -17,42 +17,41 @@
     grid-template-columns: 1fr 82%;
 
     width: 95%;
-    /*border: 3px dotted greenyellow*/;
-
+    /*border: 3px dotted greenyellow*/
 }
 .b-programa-lista__contenedor__detalle {
-    margin:20px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     color: var(--blanco);
     width: 100%;
     /*border: 3px dashed blueviolet;*/
 }
-.b-programa-lista__contenedor__detalle__imgtxt{
+.b-programa-lista__contenedor__detalle__imgtxt {
     display: flex;
     flex-direction: row;
 }
-.b-programa-lista__contenedor__titulo{
+.b-programa-lista__contenedor__titulo {
     text-align: left;
     color: var(--blanco);
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
     padding: 5px 0px;
 }
-.b-programa-lista__contenedor_eventos{
+.b-programa-lista__contenedor_eventos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     /*border: 3px dashed wheat; */
 }
-.b-programa-lista__contenedor_eventos_horarios{
+.b-programa-lista__contenedor_eventos_horarios {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
     /*border: 3px dashed blueviolet;*/
 }
 
-.b-programa-lista__contenedor_eventos_horarios_row{
+.b-programa-lista__contenedor_eventos_horarios_row {
     display: grid;
     grid-template-columns: 1fr 3fr;
     justify-content: start;
@@ -65,7 +64,7 @@
     margin-top: 5px;
     /*border: 2px dotted white;*/
 }
-.b-programa-lista__contenedor_eventos_horarios_talleres_row{
+.b-programa-lista__contenedor_eventos_horarios_talleres_row {
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -78,22 +77,21 @@
     margin-top: 5px;
     /*border: 2px dotted white;*/
 }
-.b-programa-lista__contenedor_eventos_horarios p{
+.b-programa-lista__contenedor_eventos_horarios p {
     margin-top: 10px;
     border-color: var(--naranja);
     border-bottom: 1px solid var(--naranja);
-
 }
-.b-programa-lista__detalle__cuerpo{
+.b-programa-lista__detalle__cuerpo {
     font-family: "Roboto-Light";
     font-size: 1.2rem;
     color: var(--blanco);
 }
-.b-programa-lista-detalle__imagen{
+.b-programa-lista-detalle__imagen {
     margin-right: 20px;
     width: 400px;
 }
-.b-programalista__evento__precio{
+.b-programalista__evento__precio {
     margin-left: 10px;
     border: 1px solid var(--naranja);
     border-radius: 25px;
@@ -103,23 +101,24 @@
     padding-top: 3px;
 }
 
-.fecha-programa{
+.fecha-programa {
     color: var(--naranja);
-    background-color:  var(--blanco);
-    font-family: 'Roboto-Regular';
+    background-color: var(--blanco);
+    font-family: "Roboto-Regular";
     font-size: 1.5em;
     width: 100%;
     padding-left: 1rem;
     margin-left: 20px;
 }
-.ficha_ponente{
+.ficha_ponente {
     display: flex;
     align-items: center;
     flex-direction: column;
     color: var(--blanco);
     min-width: 200px;
+    max-width: 211px;
 }
-.imagen_ponente{
+.imagen_ponente {
     border-radius: 100%;
     width: 120px;
     height: 120px;
@@ -127,83 +126,81 @@
     min-height: 60px;
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
-
 }
 
-.texto-programa{
+.texto-programa {
     color: var(--naranja);
-    font-family: 'Roboto-Regular' ;
+    font-family: "Roboto-Regular";
     font-size: 3vw;
 }
 
-.adv-talleres{
+.adv-talleres {
     font-size: 1.2rem;
 }
 
 /* --------------------------
    PAGINA TALLER
    --------------------------*/
-.taller__container{
+.taller__container {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.taller__imagen--container{
+.taller__imagen--container {
     position: relative;
     padding-top: 3rem;
     padding-bottom: 3rem;
     margin: 0 auto;
     width: 100%;
 }
-.taller__perfil--imagen{
+.taller__perfil--imagen {
     position: relative;
     top: -9rem;
     left: 2rem;
     width: 10rem;
     border-radius: 50%;
-
 }
 .taller__perfil--nombre-ponente {
     position: relative;
-    top:-8rem;
+    top: -8rem;
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
     left: 3rem;
 }
-.taller__perfil--skin-ponente{
+.taller__perfil--skin-ponente {
     position: relative;
-    top:-8rem;
+    top: -8rem;
     left: 3rem;
     font-family: "Roboto_LightItalic";
     font-size: 1rem;
 }
 .taller__resumen--fecha {
     position: relative;
-    top:-6rem;
+    top: -6rem;
     left: 3rem;
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
 }
-.taller__resumen--titulo{
+.taller__resumen--titulo {
     position: relative;
-    top:-6rem;
+    top: -6rem;
     left: 3rem;
     font-family: "Roboto-Regular";
     font-size: 1.5rem;
 }
-.taller__resumen--descripcion{
+.taller__resumen--descripcion {
     position: relative;
-    top:-4rem;
+    top: -4rem;
     left: 3rem;
     font-family: "Roboto-Regular";
     font-size: 1.2rem;
 }
-.taller__resumen--container-reserva{
+.taller__resumen--container-reserva {
     display: flex;
     justify-content: flex-end;
 }
-.taller__resumen--boton-reserva{
+.taller__resumen--boton-reserva {
     display: flex;
     justify-content: center;
     align-items: baseline;
@@ -215,7 +212,7 @@
     max-width: 400px;
     height: 3rem;
 }
-.taller__resumen--precio-entrada{
+.taller__resumen--precio-entrada {
     position: relative;
     left: 3rem;
     margin: 0 auto;
