@@ -8,7 +8,7 @@
     <img class="logo-blendiberia-top" src="/images/svg/icono_home.svg" alt=" Logo Blendiberia" >
 </div>
 <div class="b-entradas">
-    <a href="/registro/"><button type="button" class="botoncabecera">Preinscripción</button></a>
+    <a href="https://docs.google.com/forms/d/1PBRRTn_3f7OK6hLVlZyQ7hBDzHzNju3_AI96zpUeY3I/viewform?edit_requested=true"><button type="button" class="botoncabecera">Preinscripción</button></a>
 </div>
 <div class="b-talento">
     <p class="textocursiva text-center">Uniendo talento en el universo 3D</p>

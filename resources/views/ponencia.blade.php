@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="ponencia__resumen--container-reserva">
-                <a href="/registro/"><div class="ponencia__resumen--boton-reserva">
+                <a href="https://docs.google.com/forms/d/1PBRRTn_3f7OK6hLVlZyQ7hBDzHzNju3_AI96zpUeY3I/viewform?edit_requested=true"><div class="ponencia__resumen--boton-reserva">
                     Reserva aquí tu entrada
                 </div></a>
             </div>
