@@ -49,9 +49,14 @@
 
                 </div>
             @endif
-            @if(!is_null($ponent->cara ))
-                {{$ponent->cara}}
+            @if(!is_null($ponent->github ))
+                <div class="ponentes_datosponente--contenedor-links">
+                    <img class="ponentes_datosponente--logoredsocial" src={{"/images/svg/github.svg"}} alt="icono web">
+                    <a href={{$ponent->instagram}}>{{$ponent->github}}</a>
+
+                </div>
             @endif
+
             @if(!is_null($ponent->twitter_x ))
             <div class="ponentes_datosponente--contenedor-links">
                 <img class="ponentes_datosponente--logoredsocial" src={{"/images/svg/twitter.svg"}} alt="icono web">
