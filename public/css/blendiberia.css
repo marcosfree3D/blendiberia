@@ -42,9 +42,10 @@ TIPOS Y POSICIONES DE TEXTO
     display: none;
 }
 
-.amount-container {
-    color: var(--negro);
+.paypal-button input[type="number"] {
+    color: black !important;
 }
+
 .barramenu {
     background-color: var(--azul_oscuro);
     position: fixed;
