@@ -50,9 +50,10 @@
                 </div>
             @endif
             @if(!is_null($ponent->github ))
+
                 <div class="ponentes_datosponente--contenedor-links">
                     <img class="ponentes_datosponente--logoredsocial" src={{"/images/svg/github.svg"}} alt="icono web">
-                    <a href={{$ponent->instagram}}>{{$ponent->github}}</a>
+                    <a href={{$ponent->github}}>{{$ponent->github}}</a>
 
                 </div>
             @endif
