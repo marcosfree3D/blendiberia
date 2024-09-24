@@ -3,9 +3,7 @@
     <div class="titulo-texto">TALLERES</div>
     <div class="linea_slide">
         <hr class="linea_naranja">
-        <img id="PreviousTaller" src="/images/svg/slide_flecha_izquierda.svg" alt="Slide flecha izquierda" class="boton_slide">
-        <img id="NextTaller" src="/images/svg/slide_flecha_derecha.svg" alt="Slide flecha derecha" class="boton_slide">
-    </div>
+
 </section>
 
 <!--Zona Talleres - detalle talleres-->
