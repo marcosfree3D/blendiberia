@@ -9,6 +9,7 @@
     color: var(--negro);
     padding: 2rem;
     background-color: var(--blanco);
+    border: 2px solid color var(--naranja);
 }
 .b-calendario-localizacion-qr__texto {
     font-family: "Roboto-Regular";
