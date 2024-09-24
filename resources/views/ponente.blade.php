@@ -94,6 +94,13 @@
 
                 </div>
             @endif
+            @if(!is_null($ponent->email ))
+                <div class="ponentes_datosponente--contenedor-links">
+                    <img class="ponentes_datosponente--logoredsocial" src={{"/images/svg/email.svg"}} alt="icono web">
+                    <a href={{$ponent->email}}>{{$ponent->email}}</a>
+
+                </div>
+            @endif
 
         @endforeach
 
