@@ -3,8 +3,8 @@
    --------------------------*/
 
 .b-calendario-localizacion-qr {
-    width: 18%;
-    max-width: 18%;
+    width: 100%;
+    max-width: 100%;
     margin-top: 2rem;
     color: var(--negro);
     padding: 2rem;
