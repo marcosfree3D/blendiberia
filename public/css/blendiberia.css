@@ -42,7 +42,7 @@ TIPOS Y POSICIONES DE TEXTO
     display: none;
 }
 
-.paypal-button input[type="number"] {
+#amount {
     color: black !important;
 }
 
