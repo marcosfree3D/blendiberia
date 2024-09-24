@@ -46,6 +46,10 @@ TIPOS Y POSICIONES DE TEXTO
     color: black !important;
 }
 
+.amount-container {
+    color: var(--negro) !important;
+}
+
 .barramenu {
     background-color: var(--azul_oscuro);
     position: fixed;
