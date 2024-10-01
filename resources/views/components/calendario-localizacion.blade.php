@@ -22,8 +22,8 @@
         <div class="b-calendario-localizacion-sitio">
             <img src="/images/svg/point.svg" alt="caja calendario">
             <div class="direccion-sala">
-                <p class="nombre-hotel"><b>Meliá Sitges</b></p>
-                <p class="direccion-postal">c/Joan Salvat Papasseit, 38</p>
+                <p class="nombre-hotel"><b>Lugar del evento en negociación</b></p>
+                <p class="direccion-postal"></p>
                 <p class="direccion-postal">*Pendiente confirmar según cantidad de asistentes</p>
             </div>
         </div>
