@@ -12,6 +12,12 @@ class HomeController extends Controller
     {
         $conferencias = DB::select('select * from conferencias');
         $talleres = DB::select('select * from talleres');
+        $talleres = DB::table('talleres')
+                ->orderBy('fecha', 'asc')
+                ->orderBy('hora', 'asc')
+                ->get();
+
+                
         $ponentes = DB::select('select * from ponentes order by orden') ;
         /*$ponentes = DB::select('select * from ponentes '); */
 
@@ -19,3 +25,4 @@ class HomeController extends Controller
         return view('principal',compact('conferencias','ponentes','talleres'));
     }
 }
+
