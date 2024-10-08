@@ -1,6 +1,6 @@
 <!--Zona Conferencias slide-->
 <section class="b-titulos">
-    <div class="titulo-texto">CONFERENCIAS</div>
+    <div class="titulo-texto">CONFERENCIAS (Sábado 9 y Domingo 10)</div>
     <div class="linea_slide">
         <hr class="linea_naranja">
 </section>

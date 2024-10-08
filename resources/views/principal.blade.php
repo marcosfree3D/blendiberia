@@ -6,7 +6,6 @@
     <x-zona-ponentes :ponentes="$ponentes"/>
     <x-zona-conferencias :conferencias="$conferencias"/>
     <x-zona-talleres :talleres="$talleres"/>
-
     <x-boton-reserva-naranja/>
 
     {{--<x-zona-videos/>--}}
