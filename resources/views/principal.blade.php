@@ -4,8 +4,9 @@
     <x-calendario-localizacion/>
     <x-qr/>
     <x-zona-ponentes :ponentes="$ponentes"/>
-    <x-zona-conferencias :conferencias="$conferencias"/>
     <x-zona-talleres :talleres="$talleres"/>
+    <x-zona-conferencias :conferencias="$conferencias"/>
+
     <x-boton-reserva-naranja/>
 
     {{--<x-zona-videos/>--}}

@@ -1,6 +1,6 @@
 <!--Zona Talleres slide-->
 <section class="b-titulos">
-    <div class="titulo-texto">TALLERES (Jueves 7  y Viernes 8</div>
+    <div class="titulo-texto">TALLERES (Jueves 7  y Viernes 8)</div>
     <div class="linea_slide">
         <hr class="linea_naranja">
 
