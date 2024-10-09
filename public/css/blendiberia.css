@@ -219,6 +219,15 @@ TIPOS Y POSICIONES DE TEXTO
     margin-top: -10px;
     margin-left: 17px;
 }
+
+.direccion-postal--link {
+    font-size: 1.5rem;
+    font-family: "Roboto-Regular";
+    margin-top: -10px;
+    margin-left: 17px;
+    color: var(--naranja);
+    text-decoration: underline;
+}
 .nombre-hotel {
     font-size: 2rem;
     font-family: "Roboto-Regular";

@@ -25,7 +25,7 @@
                 <p class="nombre-hotel"><b>Eurostars Sitges</b></p>
                 <p class="direccion-postal">Av. Camí de Miralpeix 12 Sitges - Barcelona
                 08870 España</p>
-                <p class="direccion-postal"><a href="https://www.eurostarshotels.com/eurostars-sitges.html">Web del hotel para registro de habitaciones</a></p>
+                <p class="direccion-postal--link"><a href="https://www.eurostarshotels.com/eurostars-sitges.html">Web del hotel/a></p>
             </div>
         </div>
         <div class="b-calendario-localizacion-mapa">
