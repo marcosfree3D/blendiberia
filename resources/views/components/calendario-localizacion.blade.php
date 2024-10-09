@@ -22,9 +22,10 @@
         <div class="b-calendario-localizacion-sitio">
             <img src="/images/svg/point.svg" alt="caja calendario">
             <div class="direccion-sala">
-                <p class="nombre-hotel"><b>Lugar del evento en negociación</b></p>
-                <p class="direccion-postal"></p>
-                <p class="direccion-postal">*Pendiente confirmar según cantidad de asistentes</p>
+                <p class="nombre-hotel"><b>Eurostars Sitges</b></p>
+                <p class="direccion-postal">Av. Camí de Miralpeix 12 Sitges - Barcelona
+                08870 España</p>
+                <p class="direccion-postal"><a href="https://www.eurostarshotels.com/eurostars-sitges.html">Web del hotel para registro de habitaciones</a></p>
             </div>
         </div>
         <div class="b-calendario-localizacion-mapa">
