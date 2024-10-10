@@ -10,18 +10,17 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $conferencias = DB::select('select * from conferencias');
-        $talleres = DB::select('select * from talleres');
-        $talleres = DB::table('talleres')
-                ->orderBy('orden', 'asc')
-                ->get();
+        $conferencias = DB::table("conferencias")
+            ->orderBy("orden", "asc")
+            ->get();
+        $talleres = DB::table("talleres")->orderBy("orden", "asc")->get();
 
-
-        $ponentes = DB::select('select * from ponentes order by orden') ;
+        $ponentes = DB::select("select * from ponentes order by orden");
         /*$ponentes = DB::select('select * from ponentes '); */
 
-
-        return view('principal',compact('conferencias','ponentes','talleres'));
+        return view(
+            "principal",
+            compact("conferencias", "ponentes", "talleres")
+        );
     }
 }
-
