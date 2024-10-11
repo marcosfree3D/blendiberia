@@ -25,7 +25,7 @@
                 <p class="nombre-hotel"><b>Eurostars Sitges</b></p>
                 <p class="direccion-postal">Av. Camí de Miralpeix 12 Sitges - Barcelona
                 08870 España</p>
-                <p class="direccion-postal--link"><a href="https://www.eurostarshotels.com/eurostars-sitges.html">Web del hotel</a></p>
+                <p class="direccion-postal--link"><a href="https://www.eurostarshotels.com/eurostars-sitges/disponibilidad.html?id_hotel=SYN2510&start=2024-11-07&promotion_code=BLENDIBERIA2024&guests[0][adults]=2&id_referer=bs1gg11ww&city_id=26429&end=2024-11-08&avail_code=bs1gg11ww&referer_code=GMB#monoHotelAvail/EUR">Web del hotel</a></p>
             </div>
         </div>
         <div class="b-calendario-localizacion-mapa">
