@@ -49,6 +49,13 @@
 
                 </div>
             @endif
+            @if(!is_null($ponent->behance ))
+                <div class="ponentes_datosponente--contenedor-links">
+                    <img class="ponentes_datosponente--logoredsocial" src={{"/images/svg/behance.svg"}} alt="icono web">
+                    <a href={{$ponent->behance}}>{{$ponent->behance}}</a>
+
+                </div>
+            @endif
             @if(!is_null($ponent->github ))
 
                 <div class="ponentes_datosponente--contenedor-links">
