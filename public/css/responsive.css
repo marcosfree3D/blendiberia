@@ -29,6 +29,18 @@
     .social {
         display: none;
     }
+    .social_svg{
+       margin-right: 3rem;
+    }
+    .social-movil {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top:174px;
+        left: 110px;
+    }
     .links {
         display: none;
     }

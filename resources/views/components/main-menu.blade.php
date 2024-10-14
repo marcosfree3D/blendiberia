@@ -26,7 +26,7 @@
                 <li><a  href="https://www.facebook.com/blendiberia"> <img class="social_svg" src="/images/svg/facebook.svg" alt="Facebook"></a></li>
                 <li><a  href="https://www.tiktok.com/blendiberia"> <img class="social_svg" src="/images/svg/tiktok.svg" alt="tiktok"></a></li>
                 <li><a  href="https://www.twitter.com/blendiberia"> <img class="social_svg" src="/images/svg/twitter.svg" alt="twitter"></a></li>
-                <li><a  href="/card/"> <img class="social_svg shopping" src="/images/svg/Icon feather-shopping-cart.svg" alt="Blendiberia Store"></a></li>
+                <!--<li><a  href="/card/"> <img class="social_svg shopping" src="/images/svg/Icon feather-shopping-cart.svg" alt="Blendiberia Store"></a></li> -->
 
                 <li><a href="#"><img src="/images/svg/night-mode.svg" alt="Light/dark mode" class="switcher__btn social_svg"></a></li>
             </ul>
@@ -58,9 +58,7 @@
                 <li><a  href="https://www.facebook.com/blendiberia"> <img class="social_svg" src="/images/svg/facebook.svg" alt="Facebook"></a></li>
                 <li><a  href="https://www.tiktok.com/blendiberia"> <img class="social_svg" src="/images/svg/tiktok.svg" alt="tiktok"></a></li>
                 <li><a  href="https://www.twitter.com/blendiberia"> <img class="social_svg" src="/images/svg/twitter.svg" alt="twitter"></a></li>
-                <li><a  href="/card/"> <img class="social_svg shopping" src="/images/svg/Icon feather-shopping-cart.svg" alt="Blendiberia Store"></a></li>
-
-                <li><a href="#"><img src="/images/svg/night-mode.svg" alt="Light/dark mode" class="switcher__btn social_svg"></a></li>
+                <!--<li><a href="#"><img src="/images/svg/night-mode.svg" alt="Light/dark mode" class="switcher__btn social_svg"></a></li> -->
             </ul>
         </div>
     </div>
