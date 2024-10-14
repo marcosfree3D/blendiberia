@@ -31,6 +31,7 @@
                 <li><a href="#"><img src="/images/svg/night-mode.svg" alt="Light/dark mode" class="switcher__btn social_svg"></a></li>
             </ul>
         </div>
+
     </div>
 </nav>
 
@@ -53,13 +54,7 @@
         </ul>
 
         <div class="alinearderecha">
-            <ul class="social-movil">
-                <li><a  href="https://www.instagram.com/blendiberia?igsh=MW9lejVzYmc5YXMzNA=="> <img class="social_svg" src="/images/svg/instagram.svg" alt="instagram"></a></li>
-                <li><a  href="https://www.facebook.com/blendiberia"> <img class="social_svg" src="/images/svg/facebook.svg" alt="Facebook"></a></li>
-                <li><a  href="https://www.tiktok.com/blendiberia"> <img class="social_svg" src="/images/svg/tiktok.svg" alt="tiktok"></a></li>
-                <li><a  href="https://www.twitter.com/blendiberia"> <img class="social_svg" src="/images/svg/twitter.svg" alt="twitter"></a></li>
-                <!--<li><a href="#"><img src="/images/svg/night-mode.svg" alt="Light/dark mode" class="switcher__btn social_svg"></a></li> -->
-            </ul>
+
         </div>
     </div>
 </nav>
