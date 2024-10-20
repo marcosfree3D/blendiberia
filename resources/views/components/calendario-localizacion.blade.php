@@ -4,13 +4,13 @@
     <div class="b-calendario-fechas">
         <p class="texto-naranja">PROGRAMA</p>
         <div class="b-calendario-fechas-programa">
-            <a href="/ponencias/9"><img class="calendario-svg" src="/images/svg/9.svg" alt="caja calendario"></a>
-            <a href="/ponencias/10"><img class="calendario-svg"src="/images/svg/10.svg" alt="caja calendario"></a>
+            <img class="calendario-svg" src="/images/svg/9.svg" alt="caja calendario">
+            <img class="calendario-svg"src="/images/svg/10.svg" alt="caja calendario">
         </div>
         <p class="texto-naranja">TALLERES</p>
         <div class="b-calendario-fechas-talleres">
-            <a href="/talleres/7"><img class="calendario-svg" src="/images/svg/7.svg" alt="caja calendario"></a>
-            <a href="/talleres/8"><img class="calendario-svg" src="/images/svg/8.svg" alt="caja calendario"></a>
+            <img class="calendario-svg" src="/images/svg/7.svg" alt="caja calendario">
+            <img class="calendario-svg" src="/images/svg/8.svg" alt="caja calendario">
         </div>
     </div>
     <div></div>
