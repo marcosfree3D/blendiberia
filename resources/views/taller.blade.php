@@ -25,18 +25,7 @@
                         {{$tall->descripcion}}
                     </div>
                 </div>
-                @if ($tall->precio ==0)
-                    <div class="taller__resumen--container-reserva">
-                        <div class="taller__resumen--boton-reserva">
-                            Reserva aquí tu entrada
-                        </div>
-                    </div>
-                @else
-                    <div class="taller__resumen--container-reserva">
-                        <div class="taller__resumen--precio-entrada">
-                            {{$tall->precio}}€
-                        </div>
-                @endif
+                
             </section>
         @endforeach
 
