@@ -714,6 +714,79 @@ CLASES PAGINA DATOS PONENTE
 }
 
 /*--------------------------------
+AYUDA FINANCIACIÓN
+---------------------------------*/
+.ayuda__container-cabecera{
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: row;
+}
+.ayuda__logo-blendiberia{
+    width: 10%;
+    max-width: 10%;
+}
+.ayuda__container-textos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.ayuda__texto-naranja-grande{
+    font-family: "Roboto-Regular";
+    font-size: 3rem;
+    color: var(--naranja);
+}
+.ayuda__texto-descuentos{
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+    color: var(--blanco);
+
+}
+.ayuda__container-banner{
+    margin-top: 2rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--blanco);
+
+}
+.ayuda_logo-sponsor{
+    width: 20%;
+    max-width: 20%;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+}
+.ayuda__texto-naranja-dto{
+    font-family: "Roboto-Regular";
+    font-size: 1.5rem;
+    color: var(--naranja);
+}
+.patrocinadores__container-general{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:1rem;
+
+}
+.patrocinadores__logos{
+    flex: 1 1 calc(50% - 1rem); 
+    max-width: calc(50% - 1rem); 
+   
+}
+.patrocinadores__logos img{
+    width: 100%; /* Hace que la imagen ocupe todo el espacio de su contenedor */
+    height: auto; /* Mantiene la relación de aspecto de la imagen */
+    display: block; /* Elimina espacios extra por los márgenes de imagen */
+    object-fit: contain;
+}
+.otrasformas{
+    font-size: 2rem;
+    color: var(--azul_oscuro);
+    font-family: "Roboto-Regular";
+    padding-top: 2rem;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+/*--------------------------------
 CLASES INTERNAS CONTENEDORES GRID
 ------------------------------- */
 .b-calendario-localizacion-fechas-texto {

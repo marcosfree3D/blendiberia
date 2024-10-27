@@ -6,4 +6,5 @@
         hostedButtonId: "RAN8VM7A9UDA6",
       }).render("#paypal-container-RAN8VM7A9UDA6")
     </script>
+    <a  class="otrasformas" href="#financiacion">Otras formas de colaborar en la finaciación, ¡aprende y mejora tu lugar de trabajo!</a>"></a>
 </div>
