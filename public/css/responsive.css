@@ -279,10 +279,14 @@
     .ponentes_datosponente--contenedor-links {
         font-size: 0.7rem;
     }
-    .ayuda__container-textos{
-        display: flex;
-        flex-direction: row;
-        margin-left: 2rem;
+
+    .ayuda__container-banner{
+        margin-top: 2rem;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: var(--blanco);
+    
     }
 }
 
