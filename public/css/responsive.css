@@ -279,7 +279,11 @@
     .ponentes_datosponente--contenedor-links {
         font-size: 0.7rem;
     }
-
+    .ayuda__container-cabecera{
+        margin-top: 2rem;
+        display:flex;
+        flex-direction: column;
+    }
     .ayuda__container-banner{
         margin-top: 2rem;
         display:flex;
@@ -288,9 +292,16 @@
         background-color: var(--blanco);
     
     }
+    
     .ayuda__logo-blendiberia{
         width: 50%;
         max-width: 50%;
+    }
+    .ayuda_logo-sponsor{
+        width: 50%;
+        max-width: 50%;
+        margin-right: 2rem;
+        margin-left: 0.5rem;
     }
 }
 
