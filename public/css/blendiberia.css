@@ -768,8 +768,8 @@ AYUDA FINANCIACIÓN
 
 }
 .patrocinadores__logos{
-    flex: 1 1 calc(50% - 1rem); 
-    max-width: calc(50% - 1rem); 
+    flex: 1 1 calc(23% - 1rem); 
+    max-width: calc(23% - 1rem); 
    
 }
 .patrocinadores__logos img{
