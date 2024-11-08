@@ -27,18 +27,23 @@
         Desde ahora hasta el 24 de noviembre, apuntándote a los cursos de Blendtuts.es desde esta página, un 20% del precio del curso será donado para la financiación del evento. ¡Mejora tus habilidades y apoya el evento al mismo tiempo!
     </p>
 </div>
+</a>
+<a href="https://odin3d.com/">
 <div class="ayuda__container-banner">
     <img src="/images/sponsors/LogoO3D.png" alt="Logo ODIN 3D" class="ayuda_logo-sponsor">
     <p class="ayuda__texto-naranja-dto">
         Con cada curso de Blender que adquieras estarás destinando el 50% a la financiación de la Blendiberia 2024 utilizando el código Br-IBERIA24 ¡Mejora tus habilidades y ayuda a que el evento siga creciendo!
     </p>
 </div>
+</a>
+<a href="http://pixelodeon3d.es/">
 <div class="ayuda__container-banner">
     <img src="/images/sponsors/Pixelodeon_logo300.png" alt="Logo ODIN 3D" class="ayuda_logo-sponsor">
     <p class="ayuda__texto-naranja-dto">
         Al inscribirte en nuestros cursos contribuyes con el 20% a la financiación de la Blendiberia 2024 usando el código Br-IBERIA24. ¡Mejora tus habilidades y ayuda a que el evento siga creciendo!
     </p>
 </div>
+</a>
 <a href="https://instagram.com/sirasmir_art">
     <div class="ayuda__container-banner">
         <img src="/images/sponsors/SIRA.png" alt="Logo Sirasmir_art" class="ayuda_logo-sponsor">
@@ -47,12 +52,14 @@
         </p>
     </div>
 </a>
+<a href="https://school.bone-studio.com/">
 <div class="ayuda__container-banner">
     <img src="/images/sponsors/bone-studio.png" alt="Logo Bone-studio" class="ayuda_logo-sponsor">
     <p class="ayuda__texto-naranja-dto">
         Con cada curso que adquieras, estarás aportando el 50% para apoyar Blendiberia 2024 con el código: Br-IBERIA24. ¡Perfecciona tus conocimientos y colabora con el crecimiento del evento!
     </p>
 </div>
+</a>
 <a href="https://www.mireiamiralles.art">
     <div class="ayuda__container-banner">
         <img src="/images/sponsors/LogoMireia.png" alt="Logo Sirasmir_art" class="ayuda_logo-sponsor">
