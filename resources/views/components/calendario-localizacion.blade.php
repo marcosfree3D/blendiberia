@@ -29,12 +29,21 @@
             </div>
         </div>
         <div class="b-calendario-localizacion-mapa">
-            <img src="/images/svg/mapa.svg" alt="imagen mapa svg">
 
-            <img src="/images/svg/alojamiento.svg" alt="imagen alojamiento svg">
+            
+
         </div>
 
     </div>
+</div>
+<div class="directo__container">
+    <a class="directo__link" href="https://www.youtube.com/@BLENDIBERIA">
+        <img class="image__yt" src="/images/normal/youtube.png" alt="Canal youtube Blendiberia">
+        
+    </a>
+    <a href="https://www.youtube.com/@BLENDIBERIA">
+        <p class="directo_youbube"> Accede a la Blendiberia en directo en YouTube</p>
+    </a>
 </div>
 
 <div>

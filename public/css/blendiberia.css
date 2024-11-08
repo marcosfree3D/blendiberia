@@ -580,8 +580,8 @@ POLITICA DE PUBLICIDAD
     /*border: 1px solid black; */
 }
 .b-calendario-localizacion-mapa {
-    display: grid;
-    grid-template-columns: 20% 20% auto;
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     width: 100%;
     /*border: 1px solid black;*/
@@ -785,6 +785,27 @@ AYUDA FINANCIACIÓN
     padding-top: 2rem;
     margin: 0 auto;
     text-decoration: underline;
+}
+
+/*--------------------------------
+YouTube
+---------------------------------*/
+.directo__container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.directo_youbube{
+    font-family: "Roboto-Normal";
+    font-size: 1.5rem;
+    color: var(--blanco);
+}
+.directo__link{
+    width: 56%;
+}
+.image__yt{
+    width: 50%;
+    max-width: 50%;
 }
 /*--------------------------------
 CLASES INTERNAS CONTENEDORES GRID
