@@ -15,7 +15,7 @@
 
 </div>
 <div class="b-entradas">
-    <a href="https://docs.google.com/forms/d/1PBRRTn_3f7OK6hLVlZyQ7hBDzHzNju3_AI96zpUeY3I/viewform?edit_requested=true"><button type="button" class="botoncabecera">Aforo completo</button></a>
+    <a href="https://docs.google.com/forms/d/1PBRRTn_3f7OK6hLVlZyQ7hBDzHzNju3_AI96zpUeY3I/viewform?edit_requested=true"><button type="button" class="botoncabecera">Entrada libre</button></a>
 </div>
 <div class="b-talento">
     <p class="textocursiva text-center">Uniendo talento en el universo 3D</p>
