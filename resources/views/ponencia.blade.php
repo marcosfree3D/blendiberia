@@ -30,11 +30,18 @@
                     {{$pon->descripcion}}
                 </div>
             </div>
-            <!--<div class="ponencia__resumen--container-reserva">
-                <a href="https://docs.google.com/forms/d/1PBRRTn_3f7OK6hLVlZyQ7hBDzHzNju3_AI96zpUeY3I/viewform?edit_requested=true"><div class="ponencia__resumen--boton-reserva">
-                    Aforo completo
-                </div></a>
-            </div> -->
+
+            @if(!is_null($pon->yt_presentacion))
+                <div class="ponentes__video-presentacion">
+                    <iframe width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/{{ $ponent->yt_presentacion }}"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            @endif
         </section>
     @endforeach
 
