@@ -28,6 +28,7 @@
                 @if(!is_null($tall->yt_presentacion))
                 <div class="ponentes__video-presentacion">
                     <iframe width="80%"
+                            height="80%"
                             src="https://www.youtube.com/embed/{{ $tall->yt_presentacion }}"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
