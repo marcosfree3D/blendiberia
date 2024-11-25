@@ -25,7 +25,7 @@
                         {{$tall->descripcion}}
                     </div>
                 </div>
-                @if(!is_null($pon->yt_presentacion))
+                @if(!is_null($tall->yt_presentacion))
                 <div class="ponentes__video-presentacion">
                     <iframe width="560"
                             height="315"
